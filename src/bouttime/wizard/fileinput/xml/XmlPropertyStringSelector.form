@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="firstLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lastLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="teamLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="classLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="divisionLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="weightClassLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="actualWeightLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="levelLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="serialNumberLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="serialNumber" max="32767" attributes="1"/>
+                          <Component id="level" alignment="0" max="32767" attributes="1"/>
+                          <Component id="actualWeight" alignment="0" max="32767" attributes="1"/>
+                          <Component id="weightClass" alignment="0" max="32767" attributes="1"/>
+                          <Component id="division" alignment="0" max="32767" attributes="1"/>
+                          <Component id="lastName" alignment="0" max="32767" attributes="1"/>
+                          <Component id="teamName" alignment="0" max="32767" attributes="1"/>
+                          <Component id="classification" alignment="0" max="32767" attributes="1"/>
+                          <Component id="firstName" alignment="0" pref="76" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="12" pref="12" max="12" attributes="0"/>
+                      <Component id="header2Label" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="12" pref="12" max="12" attributes="0"/>
+                      <Component id="header1Label" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="12" pref="12" max="12" attributes="0"/>
+                      <Component id="jSeparator1" pref="485" max="32767" attributes="1"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="header1Label" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="header2Label" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="firstLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lastLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="teamLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="teamName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="classLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="classification" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="divisionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="division" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="weightClassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="weightClass" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="actualWeightLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="actualWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="levelLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="level" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="serialNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="serialNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="297" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="49" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="firstLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="firstLabel.text"/>
+        <Property name="name" type="java.lang.String" value="firstLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lastLabel.text"/>
+        <Property name="name" type="java.lang.String" value="lastLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="teamLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="teamLabel.text"/>
+        <Property name="name" type="java.lang.String" value="teamLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="classLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="classLabel.text"/>
+        <Property name="name" type="java.lang.String" value="classLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="divisionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="divisionLabel.text"/>
+        <Property name="name" type="java.lang.String" value="divisionLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="header1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="header1Label.text"/>
+        <Property name="name" type="java.lang.String" value="header1Label" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="header2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="header2Label.text"/>
+        <Property name="name" type="java.lang.String" value="header2Label" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="weightClassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="weightClassLabel.text"/>
+        <Property name="name" type="java.lang.String" value="weightClassLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="actualWeightLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="actualWeightLabel.text"/>
+        <Property name="name" type="java.lang.String" value="actualWeightLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="levelLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="levelLabel.text"/>
+        <Property name="name" type="java.lang.String" value="levelLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="serialNumberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="serialNumberLabel.text"/>
+        <Property name="name" type="java.lang.String" value="serialNumberLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstName">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="firstName.text"/>
+        <Property name="name" type="java.lang.String" value="firstName" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="weightClass">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="weightClass.text"/>
+        <Property name="name" type="java.lang.String" value="weightClass" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastName">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lastName.text"/>
+        <Property name="name" type="java.lang.String" value="lastName" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="teamName">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="teamName.text"/>
+        <Property name="name" type="java.lang.String" value="teamName" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="classification">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="classification.text"/>
+        <Property name="name" type="java.lang.String" value="classification" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="division">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="division.text"/>
+        <Property name="name" type="java.lang.String" value="division" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="actualWeight">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="actualWeight.text"/>
+        <Property name="name" type="java.lang.String" value="actualWeight" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="level">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="level.text"/>
+        <Property name="name" type="java.lang.String" value="level" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="serialNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="serialNumber.text"/>
+        <Property name="name" type="java.lang.String" value="serialNumber" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="sample">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="name" type="java.lang.String" value="sample" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

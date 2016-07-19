@@ -1,0 +1,758 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.6">
+  <NonVisualComponents>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+            <Property name="name" type="java.lang.String" value="fileMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="openExistingMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="openExistingDaoFile" methodName="openExistingDaoFile"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="openExistingMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="openNewMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="openNewDaoFile" methodName="openNewDaoFile"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="openNewMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="inputFromTextMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="inputFromTextFile" methodName="inputFromTextFile"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="inputFromTextMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="inputFromSSMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="inputFromExcelFile" methodName="inputFromExcelFile"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="inputFromSSMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="inputFromXMLMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="inputFromXmlFile" methodName="inputFromXmlFile"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="inputFromXMLMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="inputFromXMLMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator2" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="outputWrestlersMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="outputWrestlersMenu.text"/>
+                <Property name="name" type="java.lang.String" value="outputWrestlersMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="outputWrestlersToTextFileMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="outputWrestlersToTextFile" methodName="outputWrestlersToTextFile"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="outputWrestlersToTextFileMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="outputWrestlersToTextFileMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator5">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator5" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="exitMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="editMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="editMenu.text"/>
+            <Property name="name" type="java.lang.String" value="editMenu" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="configMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="editConfiguration" methodName="editConfiguration"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="configMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="configMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="functionMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="functionMenu.text"/>
+            <Property name="name" type="java.lang.String" value="functionMenu" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="autoGroupMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.WTAView" id="autoGroup" methodName="autoGroup"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="autoGroupMenuItem.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="autoGroupMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator3">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator3" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="autobouterMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="autobouterMenu.text"/>
+                <Property name="name" type="java.lang.String" value="autobouterMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="boutByMatMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="autoboutByMat" methodName="autoboutByMat"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="boutByMatMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="boutByMatMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="boutByTourneyMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="boutByTourneyMenuItem.text"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="boutByTourneyMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator4">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator4" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="clearBoutsMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="clearBoutsMenu.text"/>
+                <Property name="name" type="java.lang.String" value="clearBoutsMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="clearAllBoutsMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="clearAllBouts" methodName="clearAllBouts"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="clearAllBoutsMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="clearAllBoutsMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="clearBoutsByMatMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="clearBoutsByMat" methodName="clearBoutsByMat"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="clearBoutsByMatMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="clearBoutsByMatMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="clearBoutsBySessionMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="clearBoutsBySession" methodName="clearBoutsBySession"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="clearBoutsBySessionMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="clearBoutsBySessionMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="clearBoutsByMatSessionMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="clearBoutsByMatSession" methodName="clearBoutsByMatSession"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="clearBoutsByMatSessionMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="clearBoutsByMatSessionMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="lockGroupsMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lockGroupsMenu.text"/>
+                <Property name="name" type="java.lang.String" value="lockGroupsMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="lockAllGroupsMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="lockAllGroups" methodName="lockAllGroups"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="lockAllGroupsMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="lockAllGroupsMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="lockGroupsByMatMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="lockGroupsByMat" methodName="lockGroupsByMat"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="lockGroupsByMatMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="lockGroupsByMatMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="lockGroupsBySessionMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="lockGroupsBySession" methodName="lockGroupsBySession"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="lockGroupsBySessionMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="lockGroupsBySessionMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="lockGroupsByMatSessionMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="lockGroupsByMatSession" methodName="lockGroupsByMatSession"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="lockGroupsByMatSessionMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="lockGroupsByMatSessionMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="unlockGroupsMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="unlockGroupsMenu.text"/>
+                <Property name="name" type="java.lang.String" value="unlockGroupsMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="unlockAllGroupsMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="unlockAllGroups" methodName="unlockAllGroups"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="unlockAllGroupsMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="unlockAllGroupsMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="unlockGroupsByMatMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="unlockGroupsByMat" methodName="unlockGroupsByMat"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="unlockGroupsByMatMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="unlockGroupsByMatMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="unlockGroupsBySessionMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="unlockGroupsBySession" methodName="unlockGroupsBySession"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="unlockGroupsBySessionMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="unlockGroupsBySessionMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="unlockGroupsByMatSessionMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="unlockGroupsByMatSession" methodName="unlockGroupsByMatSession"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="unlockGroupsByMatSessionMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="unlockGroupsByMatSessionMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="reportMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="reportMenu.text"/>
+            <Property name="name" type="java.lang.String" value="reportMenu" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="awardReportSubMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="awardReportSubMenu.text"/>
+                <Property name="name" type="java.lang.String" value="awardReportSubMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="awardReportBySessionMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportAwardBySession" methodName="reportAwardBySession"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="awardReportBySessionMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="awardReportBySessionMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="awardReportAllMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportAwardAll" methodName="reportAwardAll"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="awardReportAllMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="awardReportAllMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="awardInventoryReportMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportAwardInventory" methodName="reportAwardInventory"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="awardInventoryReportMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="awardInventoryReportMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="boutSheetReportMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="boutSheetReportMenu.text"/>
+                <Property name="name" type="java.lang.String" value="boutSheetReportMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="blankBoutsheetMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportBoutSheetBlank" methodName="reportBoutSheetBlank"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="blankBoutsheetMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="blankBoutsheetMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="boutsheetReportByMatMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportBoutSheetForMat" methodName="reportBoutSheetForMat"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="boutsheetReportByMatMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="boutsheetReportByMatMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="boutSheetReportAllMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportBoutSheetAll" methodName="reportBoutSheetAll"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="boutSheetReportAllMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="boutSheetReportAllMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="bracketSheetReportMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="bracketSheetReportMenu.text"/>
+                <Property name="name" type="java.lang.String" value="bracketSheetReportMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportByGroupMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetForGroup" methodName="reportBracketSheetForGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportByGroupMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="bracketsheetReportByGroupMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <Menu class="javax.swing.JMenu" name="blankBracketsheetReportMenu">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="blankBracketsheetReportMenu.text"/>
+                    <Property name="name" type="java.lang.String" value="blankBracketsheetReportMenu" noResource="true"/>
+                  </Properties>
+                  <SubComponents>
+                    <Menu class="javax.swing.JMenu" name="bracketsheetReportBlankRRMenu">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlankRRMenu.text"/>
+                        <Property name="name" type="java.lang.String" value="bracketsheetReportBlankRRMenu" noResource="true"/>
+                      </Properties>
+                      <SubComponents>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketSheetReportBlank2RRMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank2RR" methodName="reportBracketSheetBlank2RR"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketSheetReportBlank2RRMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketSheetReportBlank2RRMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank3RRMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank3RR" methodName="reportBracketSheetBlank3RR"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank3RRMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank3RRMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank4RRMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank4RR" methodName="reportBracketSheetBlank4RR"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank4RRMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank4RRMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank5RRMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank5RR" methodName="reportBracketSheetBlank5RR"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank5RRMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank5RRMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                      </SubComponents>
+                    </Menu>
+                    <Menu class="javax.swing.JMenu" name="bracketsheetReportBlankBktMenu">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlankBktMenu.text"/>
+                        <Property name="name" type="java.lang.String" value="bracketsheetReportBlankBktMenu" noResource="true"/>
+                      </Properties>
+                      <SubComponents>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank2BktMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank2" methodName="reportBracketSheetBlank2"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank2BktMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank2BktMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank4BktMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank4" methodName="reportBracketSheetBlank4"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank4BktMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank4BktMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank8BktMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank8" methodName="reportBracketSheetBlank8"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank8BktMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank8BktMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank16BktMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank16" methodName="reportBracketSheetBlank16"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank16BktMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank16BktMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                        <MenuItem class="javax.swing.JMenuItem" name="bracketsheetReportBlank32BktMenuItem">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetBlank32" methodName="reportBracketSheetBlank32"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="bracketsheetReportBlank32BktMenuItem.text"/>
+                            <Property name="name" type="java.lang.String" value="bracketsheetReportBlank32BktMenuItem" noResource="true"/>
+                          </Properties>
+                        </MenuItem>
+                      </SubComponents>
+                    </Menu>
+                  </SubComponents>
+                </Menu>
+                <Menu class="javax.swing.JMenu" name="boutsWithoutNumbersMenu">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="boutsWithoutNumbersMenu.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="boutsWithoutNumbersMenu.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="boutsWithoutNumbersMenu" noResource="true"/>
+                  </Properties>
+                  <SubComponents>
+                    <MenuItem class="javax.swing.JMenuItem" name="bracketsheetNoBoutsForGroupMenuItem">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetNoBoutNumbersForGroup" methodName="reportBracketSheetNoBoutNumbersForGroup"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="bracketsheetNoBoutsForGroupMenuItem.text"/>
+                        <Property name="name" type="java.lang.String" value="bracketsheetNoBoutsForGroupMenuItem" noResource="true"/>
+                      </Properties>
+                    </MenuItem>
+                    <MenuItem class="javax.swing.JMenuItem" name="bracketsheetNoBoutsForDivMenuItem">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetNoBoutNumbersForDivision" methodName="reportBracketSheetNoBoutNumbersForDivision"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="bracketsheetNoBoutsForDivMenuItem.text"/>
+                        <Property name="name" type="java.lang.String" value="bracketsheetNoBoutsForDivMenuItem" noResource="true"/>
+                      </Properties>
+                    </MenuItem>
+                    <MenuItem class="javax.swing.JMenuItem" name="bracketsheetNoBoutsForMatMenuItem">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetNoBoutNumbersForMat" methodName="reportBracketSheetNoBoutNumbersForMat"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="bracketsheetNoBoutsForMatMenuItem.text"/>
+                        <Property name="name" type="java.lang.String" value="bracketsheetNoBoutsForMatMenuItem" noResource="true"/>
+                      </Properties>
+                    </MenuItem>
+                  </SubComponents>
+                </Menu>
+                <MenuItem class="javax.swing.JMenuItem" name="exportToFilesMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportBracketSheetExportToFiles" methodName="reportBracketSheetExportToFiles"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="exportToFilesMenuItem.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="exportToFilesMenuItem.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="exportToFilesMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="teamReportMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="teamReportMenu.text"/>
+                <Property name="name" type="java.lang.String" value="teamReportMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="teamReportSummaryMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportTeamSummary" methodName="reportTeamSummary"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="teamReportSummaryMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="teamReportSummaryMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="teamReportDetailMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportTeamDetail" methodName="reportTeamDetail"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="teamReportDetailMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="teamReportDetailMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="coachBoutReportMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="coachBoutReportMenu.text"/>
+                <Property name="name" type="java.lang.String" value="coachBoutReportMenu" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="allCoachesBoutReportMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportCoachBoutsAll" methodName="reportCoachBoutsAll"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="allCoachesBoutReportMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="allCoachesBoutReportMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="teamCoachesBoutReportMenuItem">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="bouttime.mainview.BoutTimeView" id="reportCoachBoutsForTeam" methodName="reportCoachBoutsForTeam"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="teamCoachesBoutReportMenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="teamCoachesBoutReportMenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JMenuItem" name="matKeyReportMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="reportMatKey" methodName="reportMatKey"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="matKeyReportMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="matKeyReportMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="weighinMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.BoutTimeView" id="reportWeighIn" methodName="reportWeighIn"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="weighinMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="weighinMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+            <Property name="name" type="java.lang.String" value="helpMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.mainview.WTAView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="aboutMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="mainTabPane">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="mainTabPane" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="bouttime.gui.panel.MasterListPanel" name="masterListPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="masterListPanel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new bouttime.gui.panel.MasterListPanel(this);"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Master List">
+                <Property name="tabTitle" type="java.lang.String" value="Master List"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="bouttime.gui.panel.FreeListPanel" name="freeListPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="freeListPanel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new bouttime.gui.panel.FreeListPanel(this);"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Free List">
+                <Property name="tabTitle" type="java.lang.String" value="Free List"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="bouttime.gui.panel.GroupPanel" name="groupPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="groupPanel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new bouttime.gui.panel.GroupPanel(this)"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Groups">
+                <Property name="tabTitle" type="java.lang.String" value="Groups"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="bouttime.gui.panel.BoutPanel" name="boutPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="boutPanel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new bouttime.gui.panel.BoutPanel(this)"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Bouts">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="boutPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="bouttime.gui.panel.ScratchListPanel" name="scratchListPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="scratchListPanel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new bouttime.gui.panel.ScratchListPanel(this);"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Scratch List">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="scratchListPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainTabPane"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,98,0,0,2,-27"/>
+  </AuxValues>
+</Form>

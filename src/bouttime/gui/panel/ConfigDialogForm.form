@@ -1,0 +1,809 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bracketsheetTimestampButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="awardImagePositionButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="saveButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="473" max="32767" attributes="0"/>
+              <Component id="cancelButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jTabbedPane1" alignment="0" pref="601" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jTabbedPane1" min="-2" pref="423" max="-2" attributes="0"/>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="bouttime.gui.panel.ConfigDialogForm" id="saveAction" methodName="saveAction"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="saveButton.text"/>
+        <Property name="name" type="java.lang.String" value="saveButton" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jTabbedPane1" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="generalPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="generalPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="General">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="generalPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nameLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="siteLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="cityLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="stateLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="monthLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="dayLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="yearLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="city" alignment="0" max="32767" attributes="1"/>
+                              <Component id="site" alignment="0" max="32767" attributes="1"/>
+                              <Component id="name" alignment="0" pref="404" max="32767" attributes="1"/>
+                              <Component id="state" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="day" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="year" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="fifthPlace" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="secondPlace" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="roundRobin" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="rrUpToLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="roundRobinMax" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="maxAwardLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="maxAward" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="month" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="115" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="nameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="name" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="siteLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="site" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="city" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="stateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="state" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="monthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="month" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="day" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="yearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="year" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="fifthPlace" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="secondPlace" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="roundRobin" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rrUpToLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="roundRobinMax" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="maxAwardLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="maxAward" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="nameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="nameLabel.text"/>
+                <Property name="name" type="java.lang.String" value="nameLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="name">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="name" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="siteLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="siteLabel.text"/>
+                <Property name="name" type="java.lang.String" value="siteLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="site">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="site" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cityLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="cityLabel.text"/>
+                <Property name="name" type="java.lang.String" value="cityLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="city">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="city" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="stateLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="stateLabel.text"/>
+                <Property name="name" type="java.lang.String" value="stateLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="state">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="state" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="monthLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="monthLabel.text"/>
+                <Property name="name" type="java.lang.String" value="monthLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="month">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="January"/>
+                    <StringItem index="1" value="February"/>
+                    <StringItem index="2" value="March"/>
+                    <StringItem index="3" value="April"/>
+                    <StringItem index="4" value="May"/>
+                    <StringItem index="5" value="June"/>
+                    <StringItem index="6" value="July"/>
+                    <StringItem index="7" value="August"/>
+                    <StringItem index="8" value="September"/>
+                    <StringItem index="9" value="October"/>
+                    <StringItem index="10" value="November"/>
+                    <StringItem index="11" value="December"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="month" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="dayLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="dayLabel.text"/>
+                <Property name="name" type="java.lang.String" value="dayLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="day">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="31">
+                    <StringItem index="0" value="1"/>
+                    <StringItem index="1" value="2"/>
+                    <StringItem index="2" value="3"/>
+                    <StringItem index="3" value="4"/>
+                    <StringItem index="4" value="5"/>
+                    <StringItem index="5" value="6"/>
+                    <StringItem index="6" value="7"/>
+                    <StringItem index="7" value="8"/>
+                    <StringItem index="8" value="9"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="day" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yearLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="yearLabel.text"/>
+                <Property name="name" type="java.lang.String" value="yearLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="year">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="2009"/>
+                    <StringItem index="1" value="2010"/>
+                    <StringItem index="2" value="2011"/>
+                    <StringItem index="3" value="2012"/>
+                    <StringItem index="4" value="2013"/>
+                    <StringItem index="5" value="2014"/>
+                    <StringItem index="6" value="2015"/>
+                    <StringItem index="7" value="2016"/>
+                    <StringItem index="8" value="2017"/>
+                    <StringItem index="9" value="2018"/>
+                    <StringItem index="10" value="2019"/>
+                    <StringItem index="11" value="2020"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="year" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="fifthPlace">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="fifthPlace.text"/>
+                <Property name="name" type="java.lang.String" value="fifthPlace" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="secondPlace">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="secondPlace.text"/>
+                <Property name="name" type="java.lang.String" value="secondPlace" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="roundRobin">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="roundRobin.text"/>
+                <Property name="name" type="java.lang.String" value="roundRobin" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="roundRobinStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rrUpToLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="rrUpToLabel.text"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="rrUpToLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="roundRobinMax">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="2"/>
+                    <StringItem index="1" value="3"/>
+                    <StringItem index="2" value="4"/>
+                    <StringItem index="3" value="5"/>
+                  </StringArray>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="roundRobinMax" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="maxAwardLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="maxAwardLabel.text"/>
+                <Property name="name" type="java.lang.String" value="maxAwardLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="maxAward">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="1"/>
+                    <StringItem index="1" value="2"/>
+                    <StringItem index="2" value="3"/>
+                    <StringItem index="3" value="4"/>
+                    <StringItem index="4" value="5"/>
+                    <StringItem index="5" value="6"/>
+                    <StringItem index="6" value="7"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="maxAward" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="valuesPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="valuesPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Values">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="valuesPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="bracketsheetWMLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="boutsheetWMLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="classificationLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="divLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="weightClassLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="matLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="sessionLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="boutTimeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="watermark4Bracketsheet" max="32767" attributes="1"/>
+                          <Component id="watermark4Boutsheet" max="32767" attributes="1"/>
+                          <Component id="mats" alignment="0" max="32767" attributes="1"/>
+                          <Component id="divisions" alignment="0" max="32767" attributes="1"/>
+                          <Component id="weightClasses" alignment="0" pref="231" max="32767" attributes="1"/>
+                          <Component id="boutTimes" alignment="0" max="32767" attributes="1"/>
+                          <Component id="sessions" alignment="0" max="32767" attributes="1"/>
+                          <Component id="classifications" alignment="0" pref="337" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="75" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="classificationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="classifications" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="divLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="divisions" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="weightClassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="weightClasses" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="matLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mats" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sessionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sessions" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="boutTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="boutTimes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="boutsheetWMLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="watermark4Boutsheet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bracketsheetWMLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="watermark4Bracketsheet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="23" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="classificationLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="classificationLabel.text"/>
+                <Property name="name" type="java.lang.String" value="classificationLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="classifications">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="classifications.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="classifications" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="divLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="divLabel.text"/>
+                <Property name="name" type="java.lang.String" value="divLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="divisions">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="divisions.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="divisions" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="weightClassLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="weightClassLabel.text"/>
+                <Property name="name" type="java.lang.String" value="weightClassLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="weightClasses">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="weightClasses.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="weightClasses" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="matLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="matLabel.text"/>
+                <Property name="name" type="java.lang.String" value="matLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="mats">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="mats.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="mats" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sessionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="sessionLabel.text"/>
+                <Property name="name" type="java.lang.String" value="sessionLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="sessions">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="sessions.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="sessions" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="boutTimeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="boutTimeLabel.text"/>
+                <Property name="name" type="java.lang.String" value="boutTimeLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="boutTimes">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="boutTimes.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="boutTimes" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="boutsheetWMLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="boutsheetWMLabel.text"/>
+                <Property name="name" type="java.lang.String" value="boutsheetWMLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="watermark4Boutsheet">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="watermark4Boutsheet.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="watermark4Boutsheet.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="watermark4Boutsheet" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bracketsheetWMLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetWMLabel.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetWMLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="watermark4Bracketsheet">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="watermark4Bracketsheet.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="watermark4Bracketsheet.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="watermark4Bracketsheet" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="reportsPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="reportsPanel.background"/>
+            <Property name="name" type="java.lang.String" value="reportsPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Reports">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="reportsPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="581" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="bracketsheetTimestampLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="bracketsheetTimestampAlwaysRadioButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="bracketsheetTimestampNeverRadioButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="bracketsheetTimestampPromptRadioButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jSeparator1" pref="569" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="bracketsheetAwardImageLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bracketsheetAwardImage" pref="290" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="browseBracketsheetAwardImageButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="bracketsheetAwardImagePositionLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bracketsheetAwardImageUpperRightRadioButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bracketsheetAwardImageCenterRadioButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="128" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bracketsheetTimestampLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bracketsheetTimestampAlwaysRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bracketsheetTimestampNeverRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bracketsheetTimestampPromptRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="74" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="browseBracketsheetAwardImageButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bracketsheetAwardImageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bracketsheetAwardImage" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bracketsheetAwardImagePositionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bracketsheetAwardImageUpperRightRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bracketsheetAwardImageCenterRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="181" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="bracketsheetTimestampLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetTimestampLabel.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetTimestampLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="bracketsheetTimestampAlwaysRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="bracketsheetTimestampButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetTimestampAlwaysRadioButton.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetTimestampAlwaysRadioButton" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="bracketsheetTimestampNeverRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="bracketsheetTimestampButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetTimestampNeverRadioButton.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetTimestampNeverRadioButton" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="bracketsheetTimestampPromptRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="bracketsheetTimestampButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetTimestampPromptRadioButton.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetTimestampPromptRadioButton" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bracketsheetAwardImageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetAwardImageLabel.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetAwardImageLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="bracketsheetAwardImage">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetAwardImage.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetAwardImage" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="browseBracketsheetAwardImageButton">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="bouttime.gui.panel.ConfigDialogForm" id="bracketsheetAwardImageOpenFile" methodName="bracketsheetAwardImageOpenFile"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="browseBracketsheetAwardImageButton.text"/>
+                <Property name="name" type="java.lang.String" value="browseBracketsheetAwardImageButton" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="bracketSheetAwardImageDescTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="3"/>
+                    <Property name="text" type="java.lang.String" value="The bracketsheet award image is optional and used in &quot;Award&quot; style bracket sheets.  If position is &quot;Upper Right&quot;, the image should be no larger than 142x142 pixels in order to fit nicely on all bracket sizes.  If the position is &quot;Center&quot;, the image will be displayed in the background." noResource="true"/>
+                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                    <Property name="name" type="java.lang.String" value="bracketSheetAwardImageDescTextArea" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="bracketsheetAwardImagePositionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetAwardImagePositionLabel.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetAwardImagePositionLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="bracketsheetAwardImageUpperRightRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="awardImagePositionButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetAwardImageUpperRightRadioButton.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetAwardImageUpperRightRadioButton" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="bracketsheetAwardImageCenterRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="awardImagePositionButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="bracketsheetAwardImageCenterRadioButton.text"/>
+                <Property name="name" type="java.lang.String" value="bracketsheetAwardImageCenterRadioButton" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="cancelButton">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="bouttime.gui.panel.ConfigDialogForm" id="cancelAction" methodName="cancelAction"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="cancelButton.text"/>
+        <Property name="name" type="java.lang.String" value="cancelButton" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

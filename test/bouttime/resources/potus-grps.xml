@@ -1,0 +1,1279 @@
+<object-stream>
+  <tournament id="1">
+    <name>POTUS</name>
+    <site>DC Gym</site>
+    <city>Baltimore</city>
+    <state>MD</state>
+    <fifthPlaceEnabled>false</fifthPlaceEnabled>
+    <secondPlaceChallengeEnabled>false</secondPlaceChallengeEnabled>
+    <roundRobinEnabled>true</roundRobinEnabled>
+    <roundRobinMax>3</roundRobinMax>
+    <month>January</month>
+    <day>1</day>
+    <year>2010</year>
+    <matValues>1,2,3,4</matValues>
+    <boutTimeValues>1:00,1:30</boutTimeValues>
+    <classificationValues>Open,Rookie</classificationValues>
+    <ageDivisionValues>1,2,3,4</ageDivisionValues>
+    <sessionValues>AM,PM</sessionValues>
+    <weightClassValues></weightClassValues>
+    <boutsheetWatermarkValues></boutsheetWatermarkValues>
+    <bracketsheetWatermarkValues></bracketsheetWatermarkValues>
+    <textFileInputConfig id="2">
+      <firstName>0</firstName>
+      <lastName>0</lastName>
+      <teamName>0</teamName>
+      <classification>0</classification>
+      <division>0</division>
+      <weightClass>0</weightClass>
+      <actualWeight>0</actualWeight>
+      <serialNumber>0</serialNumber>
+      <level>0</level>
+      <fieldSeparator>,</fieldSeparator>
+    </textFileInputConfig>
+    <excelFileInputConfig id="3">
+      <firstName>1</firstName>
+      <lastName>2</lastName>
+      <teamName>3</teamName>
+      <classification>4</classification>
+      <division>5</division>
+      <weightClass>6</weightClass>
+      <actualWeight>7</actualWeight>
+      <serialNumber>9</serialNumber>
+      <level>8</level>
+      <sheet>1</sheet>
+      <startRow>2</startRow>
+      <endRow>43</endRow>
+    </excelFileInputConfig>
+    <xmlFileInputConfig id="4">
+      <firstName></firstName>
+      <lastName></lastName>
+      <teamName></teamName>
+      <classification></classification>
+      <division></division>
+      <weightClass></weightClass>
+      <actualWeight></actualWeight>
+      <serialNumber></serialNumber>
+      <level></level>
+      <root></root>
+      <wrestler></wrestler>
+    </xmlFileInputConfig>
+    <allWrestlers id="5">
+      <wrestler id="6">
+        <firstName>George</firstName>
+        <lastName>Washington</lastName>
+        <teamName>Independent</teamName>
+        <classification>Rookie</classification>
+        <ageDivision>1</ageDivision>
+        <weightClass>55</weightClass>
+        <actualWeight>55</actualWeight>
+        <seed>4</seed>
+        <level>A</level>
+        <serialNumber>1001</serialNumber>
+        <group id="7">
+          <mat>2</mat>
+          <session>AM</session>
+          <boutTime>1:00</boutTime>
+          <ageDivision>1-2</ageDivision>
+          <classification>Rookie</classification>
+          <weightClass>55-66-77-88</weightClass>
+          <wrestlers id="8">
+            <wrestler id="9">
+              <firstName>John</firstName>
+              <lastName>Adams</lastName>
+              <teamName>Federalist</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>55</weightClass>
+              <actualWeight>55</actualWeight>
+              <seed>1</seed>
+              <level>A</level>
+              <serialNumber>1002</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="10">
+              <firstName>Thomas</firstName>
+              <lastName>Jefferson</lastName>
+              <teamName>DR</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>55</weightClass>
+              <actualWeight>55</actualWeight>
+              <seed>2</seed>
+              <level>A</level>
+              <serialNumber>1003</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="11">
+              <firstName>James</firstName>
+              <lastName>Madison</lastName>
+              <teamName>DR</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>55</weightClass>
+              <actualWeight>55</actualWeight>
+              <seed>3</seed>
+              <level>A</level>
+              <serialNumber>1004</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler reference="6"/>
+            <wrestler id="12">
+              <firstName>John</firstName>
+              <lastName>Adams</lastName>
+              <teamName>DR</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>66</weightClass>
+              <actualWeight>66</actualWeight>
+              <seed>5</seed>
+              <level>A</level>
+              <serialNumber>1006</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="13">
+              <firstName>Andrew</firstName>
+              <lastName>Jackson</lastName>
+              <teamName>Dem</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>66</weightClass>
+              <actualWeight>66</actualWeight>
+              <seed>6</seed>
+              <level>A</level>
+              <serialNumber>1007</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="14">
+              <firstName>James</firstName>
+              <lastName>Monroe</lastName>
+              <teamName>DR</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>66</weightClass>
+              <actualWeight>66</actualWeight>
+              <seed>7</seed>
+              <level>A</level>
+              <serialNumber>1005</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="15">
+              <firstName>Martin</firstName>
+              <lastName>Van Buren</lastName>
+              <teamName>Dem</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>66</weightClass>
+              <actualWeight>66</actualWeight>
+              <seed>8</seed>
+              <level>A</level>
+              <serialNumber>1008</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="16">
+              <firstName>William</firstName>
+              <lastName>Harrison</lastName>
+              <teamName>Whig</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>77</weightClass>
+              <actualWeight>77</actualWeight>
+              <seed>9</seed>
+              <level>A</level>
+              <serialNumber>1009</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="17">
+              <firstName>John</firstName>
+              <lastName>Tyler</lastName>
+              <teamName>Whig</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>77</weightClass>
+              <actualWeight>77</actualWeight>
+              <seed>10</seed>
+              <level>A</level>
+              <serialNumber>1010</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="18">
+              <firstName>James</firstName>
+              <lastName>Polk</lastName>
+              <teamName>Dem</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>77</weightClass>
+              <actualWeight>77</actualWeight>
+              <seed>11</seed>
+              <level>B</level>
+              <serialNumber>1011</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="19">
+              <firstName>Zachary</firstName>
+              <lastName>Taylor</lastName>
+              <teamName>Whig</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>77</weightClass>
+              <actualWeight>77</actualWeight>
+              <seed>12</seed>
+              <level>B</level>
+              <serialNumber>1012</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="20">
+              <firstName>James</firstName>
+              <lastName>Buchanan</lastName>
+              <teamName>Dem</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>13</seed>
+              <level>B</level>
+              <serialNumber>1015</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="21">
+              <firstName>Millard</firstName>
+              <lastName>Filmore</lastName>
+              <teamName>Whig</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>14</seed>
+              <level>B</level>
+              <serialNumber>1013</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="22">
+              <firstName>Abraham</firstName>
+              <lastName>Lincoln</lastName>
+              <teamName>Rep</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>15</seed>
+              <level>B</level>
+              <serialNumber>1016</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="23">
+              <firstName>Franklin</firstName>
+              <lastName>Pierce</lastName>
+              <teamName>Dem</teamName>
+              <classification>Rookie</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>16</seed>
+              <level>B</level>
+              <serialNumber>1014</serialNumber>
+              <group reference="7"/>
+              <flagged>false</flagged>
+            </wrestler>
+          </wrestlers>
+          <bouts id="24">
+            <bout id="25">
+              <label></label>
+              <sequence>1</sequence>
+              <red reference="9"/>
+              <green reference="23"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout id="26">
+                <label>D</label>
+                <sequence>1</sequence>
+                <red id="27">
+                  <firstName></firstName>
+                  <lastName></lastName>
+                  <teamName></teamName>
+                  <classification></classification>
+                  <ageDivision></ageDivision>
+                  <weightClass></weightClass>
+                  <seed>0</seed>
+                  <level></level>
+                  <flagged>false</flagged>
+                </red>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout id="28">
+                  <label>B</label>
+                  <sequence>1</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>4</round>
+                  <group reference="7"/>
+                  <winnerNextBout id="29">
+                    <label>A</label>
+                    <sequence>1</sequence>
+                    <red reference="27"/>
+                    <green reference="27"/>
+                    <round>6</round>
+                    <group reference="7"/>
+                    <bye>false</bye>
+                    <consolation>false</consolation>
+                  </winnerNextBout>
+                  <loserNextBout id="30">
+                    <label>X</label>
+                    <sequence>1</sequence>
+                    <red reference="27"/>
+                    <green reference="27"/>
+                    <round>5</round>
+                    <group reference="7"/>
+                    <winnerNextBout id="31">
+                      <label>Z</label>
+                      <sequence>2</sequence>
+                      <red reference="27"/>
+                      <green reference="27"/>
+                      <round>6</round>
+                      <group reference="7"/>
+                      <bye>false</bye>
+                      <consolation>true</consolation>
+                    </winnerNextBout>
+                    <bye>false</bye>
+                    <consolation>true</consolation>
+                  </loserNextBout>
+                  <bye>false</bye>
+                  <consolation>false</consolation>
+                </winnerNextBout>
+                <loserNextBout id="32">
+                  <label></label>
+                  <sequence>4</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>3</round>
+                  <group reference="7"/>
+                  <winnerNextBout id="33">
+                    <label></label>
+                    <sequence>4</sequence>
+                    <red reference="27"/>
+                    <green reference="27"/>
+                    <round>4</round>
+                    <group reference="7"/>
+                    <winnerNextBout id="34">
+                      <label>Y</label>
+                      <sequence>2</sequence>
+                      <red reference="27"/>
+                      <green reference="27"/>
+                      <round>5</round>
+                      <group reference="7"/>
+                      <winnerNextBout reference="31"/>
+                      <bye>false</bye>
+                      <consolation>true</consolation>
+                    </winnerNextBout>
+                    <bye>false</bye>
+                    <consolation>true</consolation>
+                  </winnerNextBout>
+                  <bye>false</bye>
+                  <consolation>true</consolation>
+                </loserNextBout>
+                <bye>false</bye>
+                <consolation>false</consolation>
+              </winnerNextBout>
+              <loserNextBout id="35">
+                <label></label>
+                <sequence>5</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout id="36">
+                  <label></label>
+                  <sequence>1</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>3</round>
+                  <group reference="7"/>
+                  <winnerNextBout id="37">
+                    <label></label>
+                    <sequence>3</sequence>
+                    <red reference="27"/>
+                    <green reference="27"/>
+                    <round>4</round>
+                    <group reference="7"/>
+                    <winnerNextBout reference="30"/>
+                    <bye>false</bye>
+                    <consolation>true</consolation>
+                  </winnerNextBout>
+                  <bye>false</bye>
+                  <consolation>true</consolation>
+                </winnerNextBout>
+                <bye>false</bye>
+                <consolation>true</consolation>
+              </loserNextBout>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="38">
+              <label></label>
+              <sequence>2</sequence>
+              <red reference="16"/>
+              <green reference="15"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout reference="26"/>
+              <loserNextBout reference="35"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="39">
+              <label></label>
+              <sequence>3</sequence>
+              <red reference="12"/>
+              <green reference="19"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout id="40">
+                <label>E</label>
+                <sequence>2</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout reference="28"/>
+                <loserNextBout id="41">
+                  <label></label>
+                  <sequence>3</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>3</round>
+                  <group reference="7"/>
+                  <winnerNextBout reference="33"/>
+                  <bye>false</bye>
+                  <consolation>true</consolation>
+                </loserNextBout>
+                <bye>false</bye>
+                <consolation>false</consolation>
+              </winnerNextBout>
+              <loserNextBout id="42">
+                <label></label>
+                <sequence>6</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout id="43">
+                  <label></label>
+                  <sequence>2</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>3</round>
+                  <group reference="7"/>
+                  <winnerNextBout reference="37"/>
+                  <bye>false</bye>
+                  <consolation>true</consolation>
+                </winnerNextBout>
+                <bye>false</bye>
+                <consolation>true</consolation>
+              </loserNextBout>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="44">
+              <label></label>
+              <sequence>4</sequence>
+              <red reference="20"/>
+              <green reference="6"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout reference="40"/>
+              <loserNextBout reference="42"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="45">
+              <label></label>
+              <sequence>5</sequence>
+              <red reference="11"/>
+              <green reference="21"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout id="46">
+                <label>F</label>
+                <sequence>3</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout id="47">
+                  <label>C</label>
+                  <sequence>2</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>4</round>
+                  <group reference="7"/>
+                  <winnerNextBout reference="29"/>
+                  <loserNextBout reference="34"/>
+                  <bye>false</bye>
+                  <consolation>false</consolation>
+                </winnerNextBout>
+                <loserNextBout reference="43"/>
+                <bye>false</bye>
+                <consolation>false</consolation>
+              </winnerNextBout>
+              <loserNextBout id="48">
+                <label></label>
+                <sequence>7</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout reference="41"/>
+                <bye>false</bye>
+                <consolation>true</consolation>
+              </loserNextBout>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="49">
+              <label></label>
+              <sequence>6</sequence>
+              <red reference="18"/>
+              <green reference="13"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout reference="46"/>
+              <loserNextBout reference="48"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="50">
+              <label></label>
+              <sequence>7</sequence>
+              <red reference="14"/>
+              <green reference="17"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout id="51">
+                <label>G</label>
+                <sequence>4</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout reference="47"/>
+                <loserNextBout reference="36"/>
+                <bye>false</bye>
+                <consolation>false</consolation>
+              </winnerNextBout>
+              <loserNextBout id="52">
+                <label></label>
+                <sequence>8</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="7"/>
+                <winnerNextBout reference="32"/>
+                <bye>false</bye>
+                <consolation>true</consolation>
+              </loserNextBout>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="53">
+              <label></label>
+              <sequence>8</sequence>
+              <red reference="22"/>
+              <green reference="10"/>
+              <round>1</round>
+              <group reference="7"/>
+              <winnerNextBout reference="51"/>
+              <loserNextBout reference="52"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout reference="26"/>
+            <bout reference="40"/>
+            <bout reference="46"/>
+            <bout reference="51"/>
+            <bout reference="35"/>
+            <bout reference="42"/>
+            <bout reference="48"/>
+            <bout reference="52"/>
+            <bout reference="36"/>
+            <bout reference="43"/>
+            <bout reference="41"/>
+            <bout reference="32"/>
+            <bout reference="28"/>
+            <bout reference="47"/>
+            <bout reference="37"/>
+            <bout reference="33"/>
+            <bout reference="30"/>
+            <bout reference="34"/>
+            <bout reference="29"/>
+            <bout reference="31"/>
+          </bouts>
+          <numWrestlers>0</numWrestlers>
+          <numBouts>0</numBouts>
+          <numRounds>6</numRounds>
+          <locked>false</locked>
+          <bracketType>16D</bracketType>
+        </group>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler reference="9"/>
+      <wrestler reference="10"/>
+      <wrestler reference="11"/>
+      <wrestler reference="14"/>
+      <wrestler reference="12"/>
+      <wrestler reference="13"/>
+      <wrestler reference="15"/>
+      <wrestler reference="16"/>
+      <wrestler reference="17"/>
+      <wrestler reference="18"/>
+      <wrestler reference="19"/>
+      <wrestler reference="21"/>
+      <wrestler reference="23"/>
+      <wrestler reference="20"/>
+      <wrestler reference="22"/>
+      <wrestler id="54">
+        <firstName>Andrew</firstName>
+        <lastName>Johnson</lastName>
+        <teamName>Rep</teamName>
+        <classification>Rookie</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>B</level>
+        <serialNumber>1017</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="55">
+        <firstName>Ulysses</firstName>
+        <lastName>Grant</lastName>
+        <teamName>Rep</teamName>
+        <classification>Rookie</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>B</level>
+        <serialNumber>1018</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="56">
+        <firstName>Rutherford</firstName>
+        <lastName>Hayes</lastName>
+        <teamName>Rep</teamName>
+        <classification>Rookie</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>B</level>
+        <serialNumber>1019</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="57">
+        <firstName>James</firstName>
+        <lastName>Garfield</lastName>
+        <teamName>Rep</teamName>
+        <classification>Rookie</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>B</level>
+        <serialNumber>1020</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="58">
+        <firstName>Chester</firstName>
+        <lastName>Arthur</lastName>
+        <teamName>Rep</teamName>
+        <classification>Rookie</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>A</level>
+        <serialNumber>1021</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="59">
+        <firstName>Grover</firstName>
+        <lastName>Cleveland</lastName>
+        <teamName>Dem</teamName>
+        <classification>Open</classification>
+        <ageDivision>1</ageDivision>
+        <weightClass>55</weightClass>
+        <actualWeight>55</actualWeight>
+        <seed>1</seed>
+        <level>A</level>
+        <serialNumber>1022</serialNumber>
+        <group id="60">
+          <mat></mat>
+          <session></session>
+          <boutTime></boutTime>
+          <ageDivision>1</ageDivision>
+          <classification>Open</classification>
+          <weightClass>55</weightClass>
+          <wrestlers id="61">
+            <wrestler reference="59"/>
+            <wrestler id="62">
+              <firstName>Benjamin</firstName>
+              <lastName>Harrison</lastName>
+              <teamName>Rep</teamName>
+              <classification>Open</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>55</weightClass>
+              <actualWeight>55</actualWeight>
+              <seed>2</seed>
+              <level>A</level>
+              <serialNumber>1023</serialNumber>
+              <group reference="60"/>
+              <flagged>false</flagged>
+            </wrestler>
+          </wrestlers>
+          <bouts id="63">
+            <bout id="64">
+              <sequence>1</sequence>
+              <red reference="59"/>
+              <green reference="62"/>
+              <round>1</round>
+              <group reference="60"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="65">
+              <sequence>1</sequence>
+              <red reference="59"/>
+              <green reference="62"/>
+              <round>2</round>
+              <group reference="60"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="66">
+              <sequence>1</sequence>
+              <red reference="59"/>
+              <green reference="62"/>
+              <round>3</round>
+              <group reference="60"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+          </bouts>
+          <numWrestlers>0</numWrestlers>
+          <numBouts>0</numBouts>
+          <numRounds>3</numRounds>
+          <locked>false</locked>
+          <bracketType>RR</bracketType>
+        </group>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler reference="62"/>
+      <wrestler id="67">
+        <firstName>William</firstName>
+        <lastName>McKinley</lastName>
+        <teamName>Rep</teamName>
+        <classification>Open</classification>
+        <ageDivision>1</ageDivision>
+        <weightClass>55</weightClass>
+        <actualWeight>55</actualWeight>
+        <seed>0</seed>
+        <level>A</level>
+        <serialNumber>1025</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="68">
+        <firstName>Theodore</firstName>
+        <lastName>Roosevelt</lastName>
+        <teamName>Rep</teamName>
+        <classification>Open</classification>
+        <ageDivision>1</ageDivision>
+        <weightClass>55</weightClass>
+        <actualWeight>55</actualWeight>
+        <seed>0</seed>
+        <level>A</level>
+        <serialNumber>1026</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="69">
+        <firstName>William</firstName>
+        <lastName>Taft</lastName>
+        <teamName>Rep</teamName>
+        <classification>Open</classification>
+        <ageDivision>1</ageDivision>
+        <weightClass>66</weightClass>
+        <actualWeight>66</actualWeight>
+        <seed>3</seed>
+        <level>A</level>
+        <serialNumber>1027</serialNumber>
+        <group id="70">
+          <mat></mat>
+          <session></session>
+          <boutTime></boutTime>
+          <ageDivision>1</ageDivision>
+          <classification>Open</classification>
+          <weightClass>66</weightClass>
+          <wrestlers id="71">
+            <wrestler id="72">
+              <firstName>Calvin</firstName>
+              <lastName>Coolidge</lastName>
+              <teamName>Rep</teamName>
+              <classification>Open</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>66</weightClass>
+              <actualWeight>66</actualWeight>
+              <seed>1</seed>
+              <level>A</level>
+              <serialNumber>1030</serialNumber>
+              <group reference="70"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="73">
+              <firstName>Warren</firstName>
+              <lastName>Harding</lastName>
+              <teamName>Rep</teamName>
+              <classification>Open</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>66</weightClass>
+              <actualWeight>66</actualWeight>
+              <seed>2</seed>
+              <level>A</level>
+              <serialNumber>1029</serialNumber>
+              <group reference="70"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler reference="69"/>
+            <wrestler id="74">
+              <firstName>Woodrow</firstName>
+              <lastName>Wilson</lastName>
+              <teamName>Dem</teamName>
+              <classification>Open</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>66</weightClass>
+              <actualWeight>66</actualWeight>
+              <seed>4</seed>
+              <level>A</level>
+              <serialNumber>1028</serialNumber>
+              <group reference="70"/>
+              <flagged>false</flagged>
+            </wrestler>
+          </wrestlers>
+          <bouts id="75">
+            <bout id="76">
+              <label></label>
+              <sequence>1</sequence>
+              <red reference="72"/>
+              <green reference="74"/>
+              <round>1</round>
+              <group reference="70"/>
+              <winnerNextBout id="77">
+                <label></label>
+                <sequence>1</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="70"/>
+                <bye>false</bye>
+                <consolation>false</consolation>
+              </winnerNextBout>
+              <loserNextBout id="78">
+                <label></label>
+                <sequence>2</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="70"/>
+                <bye>false</bye>
+                <consolation>true</consolation>
+              </loserNextBout>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="79">
+              <label></label>
+              <sequence>2</sequence>
+              <red reference="69"/>
+              <green reference="73"/>
+              <round>1</round>
+              <group reference="70"/>
+              <winnerNextBout reference="77"/>
+              <loserNextBout reference="78"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout reference="77"/>
+            <bout reference="78"/>
+          </bouts>
+          <numWrestlers>0</numWrestlers>
+          <numBouts>0</numBouts>
+          <numRounds>2</numRounds>
+          <locked>false</locked>
+          <bracketType>4D</bracketType>
+        </group>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler reference="74"/>
+      <wrestler reference="73"/>
+      <wrestler reference="72"/>
+      <wrestler id="80">
+        <firstName>Herbert</firstName>
+        <lastName>Hoover</lastName>
+        <teamName>Rep</teamName>
+        <classification>Open</classification>
+        <ageDivision>1</ageDivision>
+        <weightClass>77</weightClass>
+        <actualWeight>77</actualWeight>
+        <seed>1</seed>
+        <level>A</level>
+        <serialNumber>1031</serialNumber>
+        <group id="81">
+          <mat>1</mat>
+          <session></session>
+          <boutTime></boutTime>
+          <ageDivision>1-2</ageDivision>
+          <classification>Open</classification>
+          <weightClass>77-88</weightClass>
+          <wrestlers id="82">
+            <wrestler reference="80"/>
+            <wrestler id="83">
+              <firstName>Franklin</firstName>
+              <lastName>Roosevelt</lastName>
+              <teamName>Dem</teamName>
+              <classification>Open</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>77</weightClass>
+              <actualWeight>77</actualWeight>
+              <seed>2</seed>
+              <level>B</level>
+              <serialNumber>1032</serialNumber>
+              <group reference="81"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="84">
+              <firstName>Harry</firstName>
+              <lastName>Truman</lastName>
+              <teamName>Dem</teamName>
+              <classification>Open</classification>
+              <ageDivision>1</ageDivision>
+              <weightClass>77</weightClass>
+              <actualWeight>77</actualWeight>
+              <seed>3</seed>
+              <level>B</level>
+              <serialNumber>1033</serialNumber>
+              <group reference="81"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="85">
+              <firstName>Dwight</firstName>
+              <lastName>Eisenhower</lastName>
+              <teamName>Rep</teamName>
+              <classification>Open</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>77</weightClass>
+              <actualWeight>77</actualWeight>
+              <seed>4</seed>
+              <level>B</level>
+              <serialNumber>1034</serialNumber>
+              <group reference="81"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="86">
+              <firstName>Gerald</firstName>
+              <lastName>Ford</lastName>
+              <teamName>Rep</teamName>
+              <classification>Open</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>5</seed>
+              <level>B</level>
+              <serialNumber>1038</serialNumber>
+              <group reference="81"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="87">
+              <firstName>Lyndon</firstName>
+              <lastName>Johnson</lastName>
+              <teamName>Dem</teamName>
+              <classification>Open</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>6</seed>
+              <level>B</level>
+              <serialNumber>1036</serialNumber>
+              <group reference="81"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="88">
+              <firstName>John</firstName>
+              <lastName>Kennedy</lastName>
+              <teamName>Dem</teamName>
+              <classification>Open</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>7</seed>
+              <level>B</level>
+              <serialNumber>1035</serialNumber>
+              <group reference="81"/>
+              <flagged>false</flagged>
+            </wrestler>
+            <wrestler id="89">
+              <firstName>Richard</firstName>
+              <lastName>Nixon</lastName>
+              <teamName>Rep</teamName>
+              <classification>Open</classification>
+              <ageDivision>2</ageDivision>
+              <weightClass>88</weightClass>
+              <actualWeight>88</actualWeight>
+              <seed>8</seed>
+              <level>B</level>
+              <serialNumber>1037</serialNumber>
+              <group reference="81"/>
+              <flagged>false</flagged>
+            </wrestler>
+          </wrestlers>
+          <bouts id="90">
+            <bout id="91">
+              <label></label>
+              <sequence>1</sequence>
+              <red reference="80"/>
+              <green reference="89"/>
+              <round>1</round>
+              <group reference="81"/>
+              <winnerNextBout id="92">
+                <label>B</label>
+                <sequence>1</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="81"/>
+                <winnerNextBout id="93">
+                  <label>A</label>
+                  <sequence>1</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>4</round>
+                  <group reference="81"/>
+                  <bye>false</bye>
+                  <consolation>false</consolation>
+                </winnerNextBout>
+                <loserNextBout id="94">
+                  <label>Y</label>
+                  <sequence>2</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>3</round>
+                  <group reference="81"/>
+                  <winnerNextBout id="95">
+                    <label>Z</label>
+                    <sequence>2</sequence>
+                    <red reference="27"/>
+                    <green reference="27"/>
+                    <round>4</round>
+                    <group reference="81"/>
+                    <bye>false</bye>
+                    <consolation>true</consolation>
+                  </winnerNextBout>
+                  <bye>false</bye>
+                  <consolation>true</consolation>
+                </loserNextBout>
+                <bye>false</bye>
+                <consolation>false</consolation>
+              </winnerNextBout>
+              <loserNextBout id="96">
+                <label></label>
+                <sequence>3</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="81"/>
+                <winnerNextBout id="97">
+                  <label>X</label>
+                  <sequence>1</sequence>
+                  <red reference="27"/>
+                  <green reference="27"/>
+                  <round>3</round>
+                  <group reference="81"/>
+                  <winnerNextBout reference="95"/>
+                  <bye>false</bye>
+                  <consolation>true</consolation>
+                </winnerNextBout>
+                <bye>false</bye>
+                <consolation>true</consolation>
+              </loserNextBout>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="98">
+              <label></label>
+              <sequence>2</sequence>
+              <red reference="86"/>
+              <green reference="85"/>
+              <round>1</round>
+              <group reference="81"/>
+              <winnerNextBout reference="92"/>
+              <loserNextBout reference="96"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="99">
+              <label></label>
+              <sequence>3</sequence>
+              <red reference="84"/>
+              <green reference="87"/>
+              <round>1</round>
+              <group reference="81"/>
+              <winnerNextBout id="100">
+                <label>C</label>
+                <sequence>2</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="81"/>
+                <winnerNextBout reference="93"/>
+                <loserNextBout reference="97"/>
+                <bye>false</bye>
+                <consolation>false</consolation>
+              </winnerNextBout>
+              <loserNextBout id="101">
+                <label></label>
+                <sequence>4</sequence>
+                <red reference="27"/>
+                <green reference="27"/>
+                <round>2</round>
+                <group reference="81"/>
+                <winnerNextBout reference="94"/>
+                <bye>false</bye>
+                <consolation>true</consolation>
+              </loserNextBout>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout id="102">
+              <label></label>
+              <sequence>4</sequence>
+              <red reference="88"/>
+              <green reference="83"/>
+              <round>1</round>
+              <group reference="81"/>
+              <winnerNextBout reference="100"/>
+              <loserNextBout reference="101"/>
+              <bye>false</bye>
+              <consolation>false</consolation>
+            </bout>
+            <bout reference="92"/>
+            <bout reference="100"/>
+            <bout reference="96"/>
+            <bout reference="101"/>
+            <bout reference="97"/>
+            <bout reference="94"/>
+            <bout reference="93"/>
+            <bout reference="95"/>
+          </bouts>
+          <numWrestlers>0</numWrestlers>
+          <numBouts>0</numBouts>
+          <numRounds>4</numRounds>
+          <locked>false</locked>
+          <bracketType>8D</bracketType>
+        </group>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler reference="83"/>
+      <wrestler reference="84"/>
+      <wrestler reference="85"/>
+      <wrestler reference="88"/>
+      <wrestler reference="87"/>
+      <wrestler reference="89"/>
+      <wrestler reference="86"/>
+      <wrestler id="103">
+        <firstName>Jimmy</firstName>
+        <lastName>Carter</lastName>
+        <teamName>Dem</teamName>
+        <classification>Open</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>B</level>
+        <serialNumber>1039</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="104">
+        <firstName>Ronald</firstName>
+        <lastName>Reagan</lastName>
+        <teamName>Rep</teamName>
+        <classification>Open</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>B</level>
+        <serialNumber>1040</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="105">
+        <firstName>George</firstName>
+        <lastName>Bush</lastName>
+        <teamName>Rep</teamName>
+        <classification>Open</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>B</level>
+        <serialNumber>1041</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="106">
+        <firstName>Bill</firstName>
+        <lastName>Clinton</lastName>
+        <teamName>Dem</teamName>
+        <classification>Open</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>A</level>
+        <serialNumber>1042</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+      <wrestler id="107">
+        <firstName>Barack</firstName>
+        <lastName>Obama</lastName>
+        <teamName>Dem</teamName>
+        <classification>Open</classification>
+        <ageDivision>2</ageDivision>
+        <weightClass>99</weightClass>
+        <actualWeight>99</actualWeight>
+        <seed>0</seed>
+        <level>A</level>
+        <serialNumber>1044</serialNumber>
+        <flagged>false</flagged>
+      </wrestler>
+    </allWrestlers>
+    <allGroups id="108">
+      <group reference="60"/>
+      <group reference="70"/>
+      <group reference="81"/>
+      <group reference="7"/>
+    </allGroups>
+    <dummyWrestler reference="27"/>
+    <maxAward>3</maxAward>
+  </tournament>
+</object-stream>

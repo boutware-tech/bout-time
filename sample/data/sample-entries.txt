@@ -1,0 +1,243 @@
+Gibbs:Isaac:Open:1:42:A:Bailey
+Roxas:Julius:Open:1:42:S:BVYA
+Green:Vivika:Open:1:46:A:Bailey
+Vega:Vincent:Open:1:46:R:Corespeed
+Johnson:Barrett:Open:1:50:S:Scorpions
+Vargas:Cassie:Open:1:50:A:Bailey
+Whitlow:Maverick:Open:1:50:L:LCP
+Dummar:Brayden:Open:1:50:L:Four Points
+Jacops:Rex:Open:1:50:L:Four Points
+Hernandez:Lestaat:Open:1:50:S:Scorpions
+Moreno:Joshua:Open:1:55:A:Bailey
+Rodriguez:Zabdiel:Open:1:55:A:Bailey
+Chouteau:Luke:Open:1:55:L:VRYWC
+Hildner:Mark:Open:1:55:L:Four Points
+Sanchez:Sean:Open:1:55:S:NBWC
+Kale:Charly:Open:1:60:S:NBWC
+Scott:Jaise:Open:1:60:S:Wildcats
+McLaughlin:Jack:Open:1:60:L:LCP
+Newton:Luke:Open:1:60:S:The Ranch
+Sheble:Zachary:Open:1:60:S:BVYA
+Hansen:Jacob:Open:1:60:A:P-ville
+Martinez:Santiago:Open:1:65:L:VRYWC
+McLaren:Bryce:Open:1:65:L:LCP
+Conkin:Brayden:Open:1:65:S:NBWC
+Bittick:Brooks:Open:1:72:L:VRYWC
+Guerrero:Ricardo:Open:1:72:S:Scorpions
+Hill:James Douglas:Open:1:80:L:VRYWC
+Ziebell:Jack:Open:1:80:L:VRYWC
+Wise:Logan:Open:1:HWT:L:VRYWC
+Hernandez:Damien:Open:2:49:A:P-ville
+Hernandez:Zarek:Open:2:49:S:Scorpions
+Cardona:Roman:Open:2:49:R:Corespeed
+WALTER:IAN:Open:2:52:S:CCWC
+Cosby :Deshawn:Open:2:55:S:Scorpions
+Steininger:Camden:Open:2:55:A:Bailey
+Cash:Cameron:Open:2:55:L:VRYWC
+Mulcahy:Ryan:Open:2:55:L:Four Points
+Saylor:Austin:Open:2:55:S:NBWC
+Hawkins:Wyatt:Open:2:58:L:Four Points
+Lensing:Gary:Open:2:58:S:LCP
+Jacops:Remy:Open:2:58:L:Four Points
+Gochberg:Noah:Open:2:58:L:Four Points
+Moreno:Mason:Open:2:61:A:Bailey
+Tibbetts:Kyle:Open:2:61:L:LCP
+Chouteau:Joseph:Open:2:61:L:VRYWC
+Prehar:Christian :Open:2:61:T:LakeTravis
+Laughery:Carson:Open:2:61:T:3F
+Martinez:Aztlan:Open:2:61:R:Corespeed
+Countryman:Josh:Open:2:61:S:Wildcats
+Cardona:Isidro:Open:2:65:R:Corespeed
+Scherman:Greogory:Open:2:65:T:3F
+Miller:Zachary:Open:2:65:L:LCP
+Moreno:Gianna:Open:2:65:A:Bailey
+Ribera:Micah :Open:2:65:T:3F
+Lapuszynski:Jed:Open:2:65:L:VRYWC
+Pounds:Luke:Open:2:65:L:LCP
+Tierney:Patrick:Open:2:65:T:LakeTravis
+Dummar:Taylor:Open:2:65:L:Four Points
+Jennings:Garrison:Open:2:65:S:Scorpions
+White:Iverson:Open:2:70:S:Scorpions
+Lofton:Aaron:Open:2:70:S:CCWC
+Upp:Christopher:Open:2:70:L:Four Points
+Knox:Colton:Open:2:70:T:LakeTravis
+Dismore:CJ:Open:2:70:T:LakeTravis
+Brabb:Andy:Open:2:70:L:VRYWC
+Warden:Chase:Open:2:70:T:3F
+Cook:Brit:Open:2:70:S:BVYA
+Huerta:Joe:Open:2:70:S:BVYA
+Christian:Bryce:Open:2:70:L:VRYWC
+Laurel:Cameron:Open:2:70:S:NBWC
+Namken:Cooper:Open:2:70:R:Corespeed
+Terrell:Vincent :Open:2:75:S:DRYW
+Wilson:Gavin:Open:2:75:S:RC Wrestling
+Wiest:Dane:Open:2:75:L:VRYWC
+El Sariakoussy:Colin:Open:2:75:S:TeamElite
+Dull:Corey:Open:2:75:L:Four Points
+Hernandez:Elijah:Open:2:75:A:Bailey
+NORTON:LUKE:Open:2:75:S:CCWC
+ROBLEDO:LUKE:Open:2:75:S:CCWC
+Musalli:Amir:Open:2:75:S:Scorpions
+Forrest:Ben:Open:2:83:S:CCWC
+Jaimes:Dylan:Open:2:83:A:Bailey
+Holubets:Kyle:Open:2:83:T:LakeTravis
+Pounds:Buck:Open:2:83:L:LCP
+Whitlow:Daxon:Open:2:83:L:LCP
+Thinger:Payton:Open:2:83:L:VRYWC
+Young:Chandler:Open:2:83:S:RC Wrestling
+Navarro:Aidan:Open:2:83:S:Scorpions
+Acosta:Aiden:Open:2:83:T:3F
+Arbogast:Cody:Open:2:83:S:Wildcats
+Slade:Isaac:Open:2:92:T:LakeTravis
+Hull:Darwin:Open:2:92:S:Scorpions
+Parr:Logan:Open:2:92:S:Scorpions
+Guerrero:Jefferson:Open:2:100:S:CCWC
+Rawls:Carsten:Open:2:100:L:VRYWC
+Rodriguez:Alfred:Open:2:100:S:Wildcats
+Castaneda:Brandon:Open:2:100:R:Corespeed
+DeElena:Reese :Open:2:100:R:Corespeed
+Welch:Tripp :Open:2:100:S:NBWC
+Trevino:Mauricio:Open:2:100:T:LakeTravis
+Tijerina:Ralph :Open:2:115:A:Bailey
+Hood:Jack:Open:2:115:L:LCP
+Rocha:Carlos:Open:2:HWT:A:Bailey
+Knox:Parker:Open:3:56:T:LakeTravis
+Semones:Fletcher:Open:3:60:S:The Ranch
+Jennings:Garrison:Open:3:65:S:Scorpions
+Sheble:Jonathan:Open:3:65:S:BVYA
+Strmiska:Jordan:Open:3:65:L:VRYWC
+Geiger:John:Open:3:65:L:LCP
+Moreno:Jason:Open:3:65:A:Bailey
+DeMain:Logan:Open:3:70:T:LakeTravis
+Airola:Tanner:Open:3:70:S:NBWC
+Bosquez:Stephen:Open:3:70:S:NBWC
+Terrell:Vincent :Open:3:75:S:DRYW
+Upp:Josh:Open:3:75:L:Four Points
+Moreno:Christian:Open:3:75:A:Bailey
+Siler:Bennett:Open:3:75:A:Westlake
+Foret-Creel:Brian:Open:3:75:L:VRYWC
+Torczynski:Aaron:Open:3:80:L:VRYWC
+Coleman:Conner:Open:3:80:L:LCP
+Steininger:Brayden:Open:3:80:A:Bailey
+Musalli:Sameer :Open:3:80:S:Scorpions
+Hodge:Stephon:Open:3:80:S:Scorpions
+Reyna:Derek:Open:3:80:S:NBWC
+Acosta:Blake:Open:3:80:T:3F
+Acosta:Tyler:Open:3:80:T:3F
+Leggett:Gage :Open:3:85:L:LCP
+Tolbert:Thomas:Open:3:85:L:LCP
+Owens:Luke:Open:3:85:S:TeamElite
+Owens:Ben:Open:3:85:S:TeamElite
+Reed:Lance:Open:3:90:L:LCP
+KINARD:RYLAND:Open:3:90:S:CCWC
+Ryan:Davis:Open:3:90:S:CCWC
+Ryan:Tripp:Open:3:90:S:CCWC
+Taylor:Dawson:Open:3:90:L:Four Points
+Leggett:Caden :Open:3:90:L:LCP
+Worley:Owen:Open:3:90:S:NBWC
+Forrest:Cameron:Open:3:90:R:Corespeed
+Forrest:Caleb:Open:3:95:R:Corespeed
+Delgado:Julian:Open:3:95:S:RC Wrestling
+Rushing:Randy :Open:3:95:T:LakeTravis
+Baum:Phenix:Open:3:95:S:BVYA
+Purvis:Mark:Open:3:95:L:Four Points
+Rodriguez:Alfred:Open:3:95:S:Wildcats
+Canlas:Chance:Open:3:95:L:VRYWC
+Trim:Jacob:Open:3:100:L:VRYWC
+Garza:Brandon:Open:3:100:S:BVYA
+Monahan:Liam:Open:3:100:L:Four Points
+Trevino:Mauricio:Open:3:100:T:LakeTravis
+Reich:Daniel:Open:3:100:R:Corespeed
+Carlin:Luke:Open:3:100:L:VRYWC
+Cardona:Danny:Open:3:110:R:Corespeed
+LeBleu:Travis:Open:3:110:L:Four Points
+Diaz:Ceasar:Open:3:110:S:BVYA
+Newby:Cole:Open:3:110:L:LCP
+Hemphill:Matthew:Open:3:110:S:TeamElite
+Slagle:Seth:Open:3:120:A:P-ville
+James:Alex:Open:3:120:L:VRYWC
+Gallardo:Esteban:Open:3:120:S:RC Wrestling
+Sanders:Jaxon:Open:3:120:S:NBWC
+Hansen:Kenny:Open:3:135:A:P-ville
+Forrest:Matt:Open:3:135:S:CCWC
+Brown:Domininc:Open:3:135:A:Bailey
+Kelly:Jonathan:Open:3:HWT:L:Cedar Park
+El Sariakoussy:Alex:Open:3:HWT:S:TeamElite
+Faz:Isaiah:Open:3:HWT:A:Westlake
+Ybarra:Raymond:Open:3:HWT:A:Bailey
+Saylor:Alex:Open:4:70:S:NBWC
+Delgado:Jesus A. :Open:4:75:S:RC Wrestling
+Green:Sevon:Open:4:75:A:Bailey
+Magruder:Jake:Open:4:75:L:Four Points
+Skudlarczyk:Jack:Open:4:80:A:Westlake
+Kerley:Joe:Open:4:80:T:LakeTravis
+Jacobs:Riley:Open:4:80:T:3F
+Miller:Caleb:Open:4:85:L:LCP
+Harrison:Curtis:Open:4:85:L:LCP
+Ceshker:Sterling:Open:4:90:A:Westlake
+Fabian:Eric:Open:4:90:A:P-ville
+Imbriaco:Louis:Open:4:90:A:P-ville
+Goldsmith:Joseph:Open:4:90:S:NBWC
+Lyons:Thomas:Open:4:90:S:NBWC
+Egan:Liam:Open:4:90:T:3F
+Mitchell:Colton:Open:4:90:L:VRYWC
+Roberts:Hunter:Open:4:95:T:3F
+Lacey:Austin:Open:4:95:S:NBWC
+Elbert:Ian:Open:4:95:S:RC Wrestling
+Dehart:Eric:Open:4:95:S:Warrior Academy
+Foster:Mason:Open:4:95:A:Westlake
+Salisbury:Anderson:Open:4:95:A:Westlake
+Hershey:Hunter:Open:4:100:A:Westlake
+Cook:Taylor:Open:4:100:S:BVYA
+Lensing:Gabe:Open:4:100:L:LCP
+Lemm:Grace:Open:4:100:A:Bailey
+Gamblin:Cooper:Open:4:100:L:VRYWC
+Rowling:Dylan:Open:4:100:L:VRYWC
+Lovelace:Justin:Open:4:110:L:VRYWC
+Martinez:Noah:Open:4:110:L:VRYWC
+Elias:Jakob :Open:4:110:T:3F
+Wachnin:Adam:Open:4:110:T:3F
+Ybarra:Dana:Open:4:110:A:Bailey
+Tracy:Mathew:Open:4:110:S:RC Wrestling
+Tabarez:Sebastian:Open:4:110:S:BVYA
+Cramer:Jonathon:Open:4:110:A:Westlake
+Seijo:Michael:Open:4:110:A:P-ville
+Moreno:Tyler:Open:4:110:A:Bailey
+Steininger:Grayson:Open:4:110:A:Bailey
+Tierney:Colin :Open:4:120:T:LakeTravis
+Vega:Patrick:Open:4:120:S:Scorpions
+Bowstring:Demeco:Open:4:120:L:Cedar Park
+Moreau:Gabriel:Open:4:120:A:Westlake
+Owens:Harrison:Open:4:130:S:TeamElite
+Garza:Jerry:Open:4:130:S:BVYA
+Walker:Jake:Open:4:130:S:BVYA
+Spencer:William:Open:4:130:L:LCP
+Davis:Celeb:Open:4:130:L:Cedar Park
+Hollon:James:Open:4:130:A:Bailey
+Moreno:Jonathan:Open:4:130:A:Bailey
+Conkin:Christopher:Open:4:130:S:NBWC
+Walker:Brady:Open:4:130:S:NBWC
+Osorio:Brendan:Open:4:130:L:VRYWC
+Martin:Koby :Open:4:130:R:Corespeed
+Boatman:Charlie:Open:4:142:S:VRYWC
+Myers:Joshua:Open:4:142:S:NBWC
+Scott:Chance:Open:4:142:A:P-ville
+Moore:Blake:Open:4:142:A:Westlake
+Handley:Ty:Open:4:155:S:Wildcats
+Hodsden:Luke :Open:4:155:T:3F
+Fisher:Anthony:Open:4:155:S:Wildcats
+Rodriguez:Riley:Open:4:HWT:A:Bailey
+Rios:Chase:Open:5:95:S:NBWC
+Ringo:Christopher:Open:5:105:S:Warrior Academy
+Roberts:Hunter:Open:5:105:T:3F
+Prado:Brandon :Open:5:105:S:RC Wrestling
+Mannas:Clark:Open:5:105:T:LakeTravis
+Rumph:Colby:Open:5:115:S:CCWC
+Eledge:Noah:Open:5:135:T:LakeTravis
+Navarro:Richard:Open:5:135:S:BVYA
+Ribera:Jonah:Open:5:135:T:3F
+Lemm:Jason:Open:5:135:A:Bailey
+Uballe:Isreal:Open:5:135:A:Bailey
+Gonzalez:Isaac:Open:5:145:S:Scorpions
+Cardona:Marco:Open:5:157:R:Corespeed
+Hodsden:Luke :Open:5:157:T:3F

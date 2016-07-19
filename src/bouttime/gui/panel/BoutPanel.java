@@ -1,0 +1,199 @@
+/**                 ***COPYRIGHT STARTS HERE***
+ *  BoutTime - the wrestling tournament administrator.
+ *
+ *  Copyright (C) 2012  Jeffrey K. Rutt
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *                  ***COPYRIGHT ENDS HERE***                                */
+
+package bouttime.gui.panel;
+
+import bouttime.dao.Dao;
+import bouttime.mainview.BoutTimeView;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import org.apache.log4j.Logger;
+
+/**
+ * A class that contains the graphical components to update the bouts
+ * in a tournament.
+ */
+public class BoutPanel extends javax.swing.JPanel implements ItemListener {
+    static Logger logger = Logger.getLogger(BoutPanel.class);
+    private final String FILTER_CLEAR_KEYWORD = "All";
+    
+    ////////////////////////////////////////////////////////////////////////////
+    // Constructors
+    ////////////////////////////////////////////////////////////////////////////
+
+    /**
+     * No-arg constructor to make netBeans GUI builder happy.  In order to
+     * add this class to the Palette, you are required to have a no-arg
+     * constructor.  There is no other need for this, so don't use it.
+     * @deprecated
+     */
+    public BoutPanel() {this(null);}
+
+    /** Creates new form GroupPanel */
+    public BoutPanel(BoutTimeView v) {
+        super();
+
+        this.view = v;
+        
+        initComponents();
+        
+        initMatComboBox();
+    }
+    
+    /**
+     * Called when comboBox selections change
+     */
+    public void itemStateChanged(ItemEvent e) {
+        if (e.getStateChange() == ItemEvent.SELECTED) {
+            String mat = this.matComboBox.getSelectedItem().toString();
+            this.boutListMatPanel.updateList((mat == null) || (mat.equals(FILTER_CLEAR_KEYWORD)) ? "" : mat );
+        }
+    }
+
+    /**
+     * Called when a Dao property changes.
+     * Refresh the GUI.
+     */
+    public void daoPropertyChange() {
+        initMatComboBox();
+        updateBoutList(FILTER_CLEAR_KEYWORD);
+    }
+
+    /**
+     * Initialize the values for a given combo box.
+     * @param comboBox The combo box to initialize.
+     * @param values Array of Strings
+     */
+    private void initMatComboBox() {
+        this.matComboBox.removeItemListener(this);
+        this.matComboBox.removeAllItems();
+
+        this.matComboBox.addItem(FILTER_CLEAR_KEYWORD);
+        
+        if (this.view == null) {
+            logger.warn("Unable to init mat combox box : this.view is null.");
+            return;
+        }
+        
+        Dao dao = this.view.getDao();
+        if (!dao.isOpen()) {
+            logger.warn("Unable to set filter lists : DAO is not open.");
+            return;
+        }
+        
+        Object [] matValues = convertCsvToObjectArray(dao.getMatValues());
+        
+        if (matValues == null) {
+            logger.info("Unable to set mat combo box : no values");
+            return;
+        }
+        
+        for (Object o : matValues) {
+            this.matComboBox.addItem(o);
+        }
+
+        this.matComboBox.addItemListener(this);
+
+        logger.debug("Initialized combo box [" + this.matComboBox.getName() + "] with "
+                + this.matComboBox.getItemCount() + " items");
+    }
+    
+    public void updateBoutList(String mat) {
+        this.boutListMatPanel.updateList((mat == null) || (mat.equals(FILTER_CLEAR_KEYWORD)) ? "" : mat );
+    }
+
+    /**
+     * Convert a comma-separated value String to an Object array.
+     * @param str the comma-separated string to convert.
+     * @return An Object array of trimmed Strings
+     */
+    private Object [] convertCsvToObjectArray(String str) {
+        if ((str == null) || str.isEmpty()) {
+            logger.debug("Unable to convert string : >" + str + "<");
+            return null;
+        }
+
+        String[] tokens = str.split(",");
+        Object [] values = new Object [tokens.length];
+        for (int i = 0; i < tokens.length; i++) {
+            values[i] = tokens[i].trim();
+        }
+
+        logger.debug("Converted csv string : " + values);
+        return values;
+    }
+
+    /** This method is called from within the constructor to
+     * initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is
+     * always regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        boutListMatPanel = new bouttime.gui.panel.BoutListMatPanel(this.view);
+        matLabel = new javax.swing.JLabel();
+        matComboBox = new javax.swing.JComboBox();
+
+        setName("Form"); // NOI18N
+
+        boutListMatPanel.setName("boutListMatPanel"); // NOI18N
+
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(bouttime.mainview.BoutTimeApp.class).getContext().getResourceMap(BoutPanel.class);
+        matLabel.setText(resourceMap.getString("matLabel.text")); // NOI18N
+        matLabel.setName("matLabel"); // NOI18N
+
+        matComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1" }));
+        matComboBox.setName("matComboBox"); // NOI18N
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(boutListMatPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 605, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(matLabel)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(matComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(matLabel)
+                    .addComponent(matComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(boutListMatPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+    }// </editor-fold>//GEN-END:initComponents
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private bouttime.gui.panel.BoutListMatPanel boutListMatPanel;
+    private javax.swing.JComboBox matComboBox;
+    private javax.swing.JLabel matLabel;
+    // End of variables declaration//GEN-END:variables
+
+    private BoutTimeView view;    
+}
