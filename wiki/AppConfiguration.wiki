@@ -1,0 +1,34 @@
+#summary Descriptions of the various application configuration fields.
+<wiki:toc max_depth="1" />
+
+=General=
+
+These are general settings for the tournament, and are set when the tournament is [HowToStartANewTournament first created].  Some of these values are used when printing bracket reports.  Other values are used during the creation of groups.  
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-editConfigurationGeneral.png
+
+=Values=
+
+These values are used in many of the drop-down lists throughout the application.  Most of these values are set when the tournament is [HowToStartANewTournament first created].
+
+The *Bout Times* value is a comma-separated list of bout period times.  You can also specify different period times for the winner's side and the consolation side of the bracket. To do this, use a hyphen between the times. For example, "2:00-1:30". The winner's side is first (2:00) and the consolation side is last (1:30).  So you could have a list like this : "1:00,1:30-1:00,2:00-1:30".
+
+The *Bouts watermark* value is a comma-separated list of classifications that a "watermark" label will be added to when generating boutsheet reports.  See [http://bout-time.googlecode.com/svn/trunk/sample/reports/Watermark-boutsheet.pdf this] for an example.
+
+The *Brackets watermark* value is a comma-separated list of classifications that a "watermark" label will be added to when generating bracket reports.  See [http://bout-time.googlecode.com/svn/trunk/sample/reports/Watermark-bracket.pdf this] for an example.
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-editConfigurationValues.png
+
+=Reports=
+
+These values are used when generating reports.  
+
+*Bracketsheet Timestamp* : whenever a bracket report is generated, a timestamp can be included.  This timestamp will appear in the lower left corner.  You can choose to always include this timestamp, never include it, or be asked (prompted) each time a bracket report is generated.  
+
+*Bracketsheet Award Image* : Award-style bracket reports can include a tournament image/logo.  To do this, specify the file for the image and where you would like the image to appear on the page.
+
+  * If you choose to place the image in the "Upper Right", be sure the image is the right size _(142 x 142 pixels)_ so it won't cover any of the bracket information.  See [http://bout-time.googlecode.com/svn/trunk/sample/reports/AwardBracket-upperRight.pdf this] for an example.
+
+  * If you choose to place the image in the "Center", bout-time will put it in the background.  However, bout-time will *not* lighten or fade the image.  The image you provide will appear as-is.  See [http://bout-time.googlecode.com/svn/trunk/sample/reports/AwardBracket-center.pdf this] for an example.
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-editConfigurationReports.png

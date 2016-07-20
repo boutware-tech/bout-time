@@ -1,0 +1,37 @@
+#summary A how-to guide for trying out bout-time with sample data.
+#labels Featured
+
+<wiki:toc max_depth="1" />
+
+=Preliminary Setup=
+
+  * Download the latest version of bout-time from the [http://code.google.com/p/bout-time/downloads/list Downloads] page.
+  * Unzip or extract the downloaded file.
+  * Double-click _!BoutTime.jar_ to start the program.
+
+There are 2 files in the _sample_ folder that can be used to try out the many features of bout-time.  These files are _sample-tournament.xml_ and _sample-entries.txt_.  
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/files-in-zip.png
+
+= Start an Existing Tournament =
+
+  * From the [Screenshots#Welcome_Screen Welcome Screen], select *Open an existing tournament*.
+  * From the file browser pop-up, select _sample-tournament.xml_ from the *sample* folder that is in the folder where bout-time was extracted.
+
+= Start a New Tournament =
+
+  * Follow the instructions to [HowToStartANewTournament start a new tournament].
+  * Once the new tournament has been created, follow the instructions to input entries [HowToInputFromTextFile from a text file].
+    * Use the following values for data columns :
+      * First Name: *2*
+      * Last Name: *1*
+      * Team Name : *7*
+      * Classification: *3*
+      * Division: *4*
+      * Weight Class : *5*
+      * Actual Weight : *0*
+      * Level: *0*
+      * Serial Number: *0*
+      * Geo: *6*
+    * The field separator is *a colon* (:).
+    * The file to use as input is _sample-entries.txt_ from the *sample* folder that is in the folder where bout-time was extracted.

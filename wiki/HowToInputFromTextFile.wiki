@@ -1,0 +1,51 @@
+#summary How to input entries from a text/CSV file
+
+=== The input ===
+Here's what the input text file looks like.  We're going to input every row in this file.  We're using a comma (,) as the field separator.  Any character can be used as a separator.  The only requirement is that it is consistent throughout the file.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-text/Screenshot-inputFromText-text.png
+
+----
+=== Start the input ===
+  * Open the bout-time application.
+  * Select *File* -> *Input From Text File*
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-text/Screenshot-inputFromText-menu.png
+
+----
+=== Select the data columns ===
+Specify the columns where the data can be found.  Enter a zero to indicate that there is no data in the input file for the data.  
+
+For the first field, select "1".
+
+Click *Next* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-text/Screenshot-inputFromText-columns.png
+
+----
+=== Select separator ===
+Specify the separator between fields.
+
+Click *Next* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-text/Screenshot-inputFromText-separator.png
+----
+=== Select the input file ===
+Specify the input text file.  This can either be typed in, or the _"Browse"_ button can be used. 
+
+Click *Finish* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-text/Screenshot-inputFromText-file.png
+
+----
+=== Review the summary ===
+Review the summary details.  This shows how many records were processed, accepted, and rejected.
+
+Click *Close* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-text/Screenshot-inputFromText-summary.png
+----
+=== Finish ===
+After inputting the entries, they will appear in the bout-time application.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-text/Screenshot-inputFromText-masterList.png

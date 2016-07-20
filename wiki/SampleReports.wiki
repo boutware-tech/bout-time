@@ -1,0 +1,60 @@
+#summary Examples of reports in BoutTime.
+#labels Featured
+
+<wiki:toc max_depth="2" />
+----
+= Bout Sheet =
+http://bout-time.googlecode.com/svn/trunk/images/menu-items/reports/Screenshot-boutsheet.png
+
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankBoutSheetReport.pdf Blank Bout Sheet]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/Watermark-boutsheet.pdf With watermark for "Open"]
+----
+= Bracket Sheet =
+== Bracket ==
+http://bout-time.googlecode.com/svn/trunk/images/menu-items/reports/Screenshot-bracketsheet-blank-bracket.png
+
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankBracket-2.pdf Blank 2-man bracket]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankBracket-4.pdf Blank 4-man bracket]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankBracket-8.pdf Blank 8-man bracket]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankBracket-16.pdf Blank 16-man bracket]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankBracket-32.pdf Blank 32-man bracket]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/Watermark-bracket.pdf With watermark for "Open"]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/AwardBracket-upperRight.pdf Award-style with logo in upper right]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/AwardBracket-center.pdf Award-style with logo in center]
+
+== Round Robin ==
+http://bout-time.googlecode.com/svn/trunk/images/menu-items/reports/Screenshot-bracketsheet-blank-roundrobin.png
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankRoundRobin-2.pdf Blank 2-man round robin]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankRoundRobin-3.pdf Blank 3-man round robin]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankRoundRobin-4.pdf Blank 4-man round robin]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/BlankRoundRobin-5.pdf Blank 5-man round robin]
+
+----
+= Team =
+http://bout-time.googlecode.com/svn/trunk/images/menu-items/reports/Screenshot-team.png
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/TeamReport-detail.pdf Detail team report]
+  * [http://bout-time.googlecode.com/svn/trunk/sample/reports/TeamReport-summary.pdf Summary team report]
+
+= Award =
+
+This report provides the entry names and finishing places by group.  This can be very useful for personnel assigned to hand-out awards.
+
+[http://bout-time.googlecode.com/svn/trunk/sample/reports/AwardReport.pdf Award report]
+
+= Award Inventory =
+
+This report provides the number of awards that are needed for the tournament.  This can be very useful for ordering awards.
+
+[http://bout-time.googlecode.com/svn/trunk/sample/reports/AwardInventoryReport.pdf Award Inventory report]
+
+= Mat Key =
+
+This report provides a color-based mapping of the groups and the mats they are assigned to.  This can be very useful when needing to quickly identify what mat a group is assigned to.  
+
+[http://bout-time.googlecode.com/svn/trunk/sample/reports/MatKeyReport.pdf Mat Key report]
+
+= Bout Sequence Report =
+
+This report provides a team's entries and their bout numbers for the entire tournament. Each line of the bout sequence report is a condensed representation of a bracket. Every possible win-loss scenario for an entry is captured in this report. See [HowToReadBoutSequenceReport this] for an explanation of how to read and understand this report.
+
+[http://bout-time.googlecode.com/svn/trunk/sample/reports/BoutSequenceReport.pdf Bout Sequence report]

@@ -1,0 +1,28 @@
+#summary Screenshots and explanations of the charts and statistics.
+
+Here are some screenshots of the charts and statistics provided by _BoutTime_.  Also, some details are provided to help explain what these charts and tables mean and how to use them.  These are found on the bottom-left panel of the [http://code.google.com/p/bout-time/wiki/Screenshots#Groups_Tab Groups] tab.  The *Charts* tab contains bar charts for quick and easy visual analysis.  The *Tables* tab contains the raw data in the form of a table.
+
+<wiki:toc max_depth="2" />
+
+= Wrestler Stats =
+These are the statistics for the entries.  The entries are broken down by age division and classification.  From this information, you can tell which age divisions have the most (and least) entries.  Also, if you have multiple classifications, you can tell which classifications have the most (and least) entries.  
+
+|| http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-wrestlerstat-chart.png || http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-wrestlerstat-table.png ||
+
+----
+= Bouts by Division =
+These are the statistics for the bouts of the tournament, broken down by age division.  From this information, you can tell in which age division the majority of the bouts will occur.  This can help when deciding which groups to place on which mats.  
+
+|| http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-boutdiv-chart.png || http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-boutdiv-table.png ||
+
+----
+= Bouts by Session and Mat =
+These are the statistics for the bouts of the tournament, broken down by session and mat.  This information can be helpful when deciding which groups to place on which mat.  Also this can help in deciding session assignments.  
+
+|| http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-boutsessionmat-chart.png || http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-boutsessionmat-table.png ||
+
+----
+= Bouts by Mat =
+These are the statistics for the bouts of the tournament, broken down by mat.  This information can be helpful when assigning groups to mats.
+
+|| http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-boutmat-chart.png || http://bout-time.googlecode.com/svn/trunk/images/charts-stats/Screenshot-boutmat-table.png ||

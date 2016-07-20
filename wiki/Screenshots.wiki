@@ -1,0 +1,40 @@
+#summary Screenshots of the bout-time application
+#labels Featured
+
+<wiki:toc max_depth="1" />
+
+= Welcome Screen =
+This screen is displayed when the application starts.
+
+http://bout-time.googlecode.com/svn/trunk/images/Screenshot-welcome.png
+----
+= Master List Tab =
+The *Master List* tab contains the list of entries.  From this tab, you can *Edit* an entry, *Delete* an entry, and *Add a new* entry.  You can also put an entry on the *Scratch* list. The number of entries currently being displayed is the value in the _Count_ field.  The list that is displayed can be filtered by the controls on the bottom of the screen.  
+
+http://bout-time.googlecode.com/svn/trunk/images/Screenshot-masterlistTab.png
+----
+= Free List Tab =
+The *Free List* tab contains the list of entries that have NOT been placed into a group.  From this tab, you can *Create* a new group, and *Add* entries to an existing group.  The number of entries currently being displayed is the value in the _Count_ field.  The list that is displayed can be filtered by the controls on the bottom of the screen.  The _Selected_ field displays the number of entries that are currently selected.
+
+http://bout-time.googlecode.com/svn/trunk/images/Screenshot-freelistTab.png 
+----
+= Groups Tab =
+The *Groups* tab contains the list of groups.  The list of groups is displayed in the top left panel and can be filtered by the controls there.  From this list, you can (optionally) assign the group to a session, a mat, and specify the match period time.  The number of bouts for the groups currently being displayed is the value in the _Bouts_ field.  You can also view/print the bracket sheet and bout sheet, as well as _Delete_ the group (which places the entries in the group back onto the _Free List_).  
+
+The bottom left panel contains a tab that displays a list of entries for the selected group.  From this list, you can seed the entries, and assign final places (1st, 2nd, 3rd, etc.).  You can remove an entry from the group (which places the entry back onto the _Free List_).  You can also view/print a report of the awards.  There are other tabs in this panel that provide tournament statistics in the form of both [http://code.google.com/p/bout-time/wiki/ChartsAndStats charts and tables] (raw data).  
+
+The right panel contains a preview of the bracket for the currently selected group.  This can be very helpful when seeding entries.  This panel also contains a tab that displays the bouts for the selected group.  From this tab, you can assign bout winners (which will be reflected in the bracket report).
+
+Note that there are 3 main panels on this Tab : 1 on the right and 2 on the left (top and bottom).  The size of these panels is configurable.  To change the size, click and drag the horizontal and vertical splitters between the panels.
+
+http://bout-time.googlecode.com/svn/trunk/images/Screenshot-groupsTab.png 
+----
+= Bouts Tab =
+The *Bouts* tab contains the list of bouts.  From this tab, you can *Update* the bouts and generate a *Boutsheet* report.  The list that is displayed can be filtered by the 'Mat' control at the top of the screen.  The 'Winner' and the 'Result' fields can be updated.  After editing one or more bouts, be sure to click the "Update" button at the bottom to save your changes and refresh the view.  This will cause the winners and losers to advance through the bracket.  These updates will be present in both the Bracket and Boutsheet reports.  
+
+http://bout-time.googlecode.com/svn/trunk/images/Screenshot-boutslistTab.png
+----
+= Scratch List Tab =
+The *Scratch List* tab contains the list of entries that have been _scratched_.  Some examples of when you may want to scratch an entry include (a) not making weight and (b) a no show.  From this tab, you can _Restore_ the entry (take it off the _Scratch List_), and also make updates to the _Comment_ field.  The number of entries currently being displayed is the value in the _Count_ field.
+
+http://bout-time.googlecode.com/svn/trunk/images/Screenshot-scratchlistTab.png 

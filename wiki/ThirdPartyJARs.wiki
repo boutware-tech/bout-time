@@ -1,0 +1,22 @@
+#summary Third-party JAR files used by this project.
+#labels Phase-Implementation,Phase-Deploy
+
+*This is a list of third-party JAR files used by the bout-time project* 
+----
+
+  * [https://appframework.dev.java.net/ appframework]
+  * [https://beansbinding.dev.java.net/ beansbinding]
+  * [http://www.icepdf.org/ ICEpdf]
+    * [http://www.icepdf.org/downloads.html icepdf-core.jar]
+    * [http://www.icepdf.org/downloads.html icepdf-viewer.jar]
+  * [http://itextpdf.com/ iText]
+  * [http://www.jfree.org JFree]
+    * [http://www.jfree.org/jcommon/ jcommon]
+    * [http://www.jfree.org/jfreechart/ jfreechart]
+  * [http://www.apache.org/ Apache]
+    * [http://logging.apache.org/log4j/index.html log4j]
+    * [http://poi.apache.org/ poi]
+  * [https://swingworker.dev.java.net/ swing-worker]
+  * [https://wizard.dev.java.net/ wizard.jar]
+  * [http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/ xpp3_min]
+  * [http://xstream.codehaus.org/ xstream]

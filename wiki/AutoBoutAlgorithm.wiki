@@ -1,0 +1,22 @@
+#summary Description of the algorithm used in the AutoBout feature.
+
+First, a little terminology:
+
+ * *Minimum Bout Spacing* - fewest bouts allowed between a wrestler's consecutive bouts (particularly between round 1 and round 2).  Sometimes called the Magic Number.  It should be defined for the entire tournament. 
+ 
+ * *Maximum Round Group* - the Group(s) that have the most rounds on a particular mat during a particular session.
+ 
+ * *Round Total* - The number of bouts in a single round on a particular mat during a particular session.
+
+The algorithm uses the _Minimum Bout Spacing_ to determine when it should begin assigning bout numbers to second round bouts for the _Maximum Round Group_ assigned to a Mat/Session.
+
+The basic steps are:
+ # After mat assignments are made, list all groups on the mat with the number of rounds and the bouts per round.
+ # Sort the list of groups by
+   # Number of Rounds (largest to smallest) and
+   # Number of Bouts in Round 1(largest to smallest)
+ # Assign bout numbers to bouts in groups using the following rules:
+   * *EVEN ROUNDS* : assign bout numbers to bouts in all groups
+   * *ODD ROUNDS* : assign bout numbers to groups with "Maximum Rounds" and any group that needs remaining rounds in order to complete by the "Maximum Round".
+       * If Round Total *>* Minimum Bout Spacing then shift remaining group bouts out a round.
+       * If Round Total *<* Minimum Bout Spacing then add groups to this round until Round Total >= Minimum Round Spacing.

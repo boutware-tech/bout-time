@@ -1,0 +1,51 @@
+#summary How to input entries from an Excel file
+
+=== The input ===
+Here's what the input spreadsheet file looks like.  We're going to input every row in this file.  
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-excel/Screenshot-inputFromExcel-spreadsheet.png
+
+----
+=== Start the input ===
+  * Open the bout-time application.
+  * Select *File* -> *Input From Excel File*
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-excel/Screenshot-inputFromExcel-menu.png
+
+----
+=== Select the data columns ===
+Specify the columns where the data can be found.  Enter a zero to indicate that there is no data in the input file for the data.  
+
+For Column "A", select "1".
+
+Click *Next* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-excel/Screenshot-inputFromExcel-columns.png
+
+----
+=== Select sheet and rows ===
+Specify the sheet number, and start and end rows.
+
+Click *Next* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-excel/Screenshot-inputFromExcel-sheet.png
+----
+=== Select the input file ===
+Specify the input spreadsheet file.  This can either be typed in, or the _"Browse"_ button can be used. 
+
+Click *Finish* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-excel/Screenshot-inputFromExcel-file.png
+
+----
+=== Review the summary ===
+Review the summary details.  This shows how many records were processed, accepted, and rejected.
+
+Click *Close* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-excel/Screenshot-inputFromExcel-summary.png
+----
+=== Finish ===
+After inputting the entries, they will appear in the bout-time application.
+
+http://bout-time.googlecode.com/svn/trunk/images/input-from-excel/Screenshot-inputFromExcel-masterList.png

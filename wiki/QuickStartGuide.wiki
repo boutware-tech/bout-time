@@ -1,0 +1,148 @@
+#summary A quick how-to guide to get started using BoutTime.
+#labels Featured
+
+<wiki:toc max_depth="1" />
+
+=Preliminary Setup=
+
+  * Download the latest version of bout-time from the [http://code.google.com/p/bout-time/downloads/list Downloads] page.
+  * Unzip or extract the downloaded file.
+  * Double-click _!BoutTime.jar_ to start the program.
+
+=Start a New Tournament=
+
+Follow the [HowToStartANewTournament instructions here] to start a new tournament.
+
+See [Screenshots this] for the basic layout and explanations of the bout-time application.
+
+=Import Entries=
+
+You can input your entries in a number of different ways, depending on your input source.  bout-time supports a variety of ways to input your entry data :
+
+  * If you have entries that are in a *text or CSV* file, use the [HowToInputFromTextFile instructions here].
+  * If you have entries that are in an *Excel* file, use the [HowToInputFromExcelFile instructions here].
+  * You can also input your entries from the form within bout-time.  Just go to the "Master List" tab and click the *"Add New"* button in the bottom-right corner.  The values for the drop-down lists found in the form are set by the tournament's configuration.  If these were not set when the tournament was created, you can set these by selecting *Edit* -> *Configuration* from the main menu bar at the top.
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-addNewForm.png
+
+=Create Groups=
+
+The next step in building a tournament is to create "groups". This can be done automatically or manually. bout-time can create groups automatically by age division, classification, and weight class.  bout-time also allows tournament administrators to manually create the groups as they see fit for their situation.  
+
+To create groups automatically, select *Functions* -> *Auto Group* from the main menu bar at the top.  This will put all entries into groups by their age division, classification, and weight class.  The "Free List" will be emptied.  
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-autoGroupMenuView.png
+
+To manually create groups, use the "Free List" tab. The "Free List" is the list of entries that have not yet been assigned to a group. The list displayed on the "Free List" tab can be filtered by the controls found at the bottom of the screen.  If you do use the filters, be sure to clear all of the filters when you are done manually creating groups to ensure that no entries have been missed and left un-grouped.  
+
+Here are the steps to manually assign entries to a group:
+
+  * Select the "Free List" tab
+  * Select the entries you want to place in a group.
+    * *Adjacent entries* can be selected by holding down the _Shift_ button on your keyboard.  You can also select adjacent entries by clicking an entry and dragging the mouse to other entries.  
+    * *Non-adjacent entries* can be selected with the use of the _Ctrl_ button on your keyboard.
+  * Once you are satisfied with the entries for your group, you can create a new group for these entries, or add the entries to an existing group.  To do either one, you can use the buttons at the bottom of the screen, or use the _right_ mouse button.
+    * If you select *Create Group*, a new group with these entries will be created, and the entries will be removed from the "Free List".
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-createGroupSubmenu.png
+    * If you select *Add to Group*, you will be presented with a list of groups.  Make your selection for which group to add these entries to and the highlighted entries will be removed from the "Free List" and put into this group.
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-addToGroupSelection.png
+  * Continue this process until all entries on the "Free List" are placed in groups.
+
+=Seed Entries in a Group=
+
+You may want to seed or otherwise adjust the position of entries in a group. The following steps allow you to modify the entry’s position in the group.
+
+  # From the "Groups" tab, select a Group. You will notice that a preview of the bracket will appear in the "Bracket Preview" tab in window to the right. This preview includes the seed number next to the entry's name.
+  # In the window on the bottom left-hand side choose the "Wrestler List" tab.
+  # You can change the entry's position two different ways.  
+    * *Manually* : when selecting the *Seed* column, a pull-down menu will pop up that includes all available placement positions. You can select a new bracket position and click the *Update* button at the bottom of the window. The bracket preview will reflect the new placement. *NOTE*: _If you modify an entry's position you must either swap him with another entry's position or completely re-number the positions for all entries. bout-time will allow two entries to have the same seed position, but will present you with an error_.
+    * *Randomly* : use the *Shuffle* button to randomly place the entries in the group.  You can also set certain entries and randomly place the rest.  To do this, use the *Set* checkbox and then the *Shuffle* button.  When entries are placed randomly, entries with the same team values (and then geo) are automatically separated as far as possible.  
+  # Once you are satisfied with the entry positions, you can move on to the next Group until you are complete.
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-seedingView.png
+
+=Assign Groups to a Session=
+
+If you are using multiple sessions for a tournament, you will need to assign the groups you've defined to a session.  This is done from the "Groups" tab.  
+
+  # Select the group or groups that you want to set.
+    * *Adjacent groups* can be selected by holding down the _Shift_ button on your keyboard.  You can also select adjacent groups by clicking a group and dragging the mouse to another group.  
+    * *Non-adjacent groups* can be selected with the use of the _Ctrl_ button on your keyboard.
+  # _Right-click_ the mouse and a menu will appear.  Select *Set Session* and a form with a dropdown box will appear.  Select the session you would like to set the group(s) to and click "OK".  
+  # Repeat these steps until you are complete.
+
+Don't forget to click the *Update* button to refresh the [ChartsAndStats charts and stats] after setting the group values.
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-setSessionView.png
+
+=Assign Groups to a Mat=
+
+Once you have all entries on the Free List placed in groups, you will want to make mat assignments for the groups. bout-time has useful sorting and reporting capabilities to assist you in balancing your tournament. 
+
+In the bottom half of the left-hand window of the "Groups" tab you will find a set of selectable tabs that indicate "Wrestler List", "Tables", and "Charts". These tabs allow you to view [ChartsAndStats real-time reports] about the groups, including number of bouts by division and number of bouts by mat.  
+
+  # Select the group or groups that you want to set.
+    * *Adjacent groups* can be selected by holding down the _Shift_ button on your keyboard.  You can also select adjacent groups by clicking a group and dragging the mouse to another group.  
+    * *Non-adjacent groups* can be selected with the use of the _Ctrl_ button on your keyboard.
+  # _Right-click_ the mouse and a menu will appear.  Select *Set Mat* and a form with a dropdown box will appear.  Select the mat you would like to assign the group(s) to and click "OK".  
+  # Repeat these steps until you are complete.
+
+Don't forget to click the *Update* button to refresh the [ChartsAndStats charts and stats] after setting the group values.
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-setMatView.png
+
+=Assign Bout Numbers=
+
+To assign bout numbers to bouts automatically, select *Functions* -> *Auto Bout* -> *By Mat* from the main menu bar at the top. 
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-autoBoutMenuView.png
+
+Another window will appear for you to enter some values before executing the [AutoBoutAlgorithm Auto Bout] function.  Here's a brief description of the various fields : 
+
+  * *Mat* : the mat that you want to assign bouts for.  If you want to do all of the mats at the same time with the same input values, select "All".  
+  * *Session* : the session that you want to assign bouts for.
+  * *Minimum bout spacing* : the fewest bouts allowed between an entry's consecutive bouts (particularly between round 1 and round 2). In other words, this is the least amount of "rest" (in bouts, not time) before an entry's next bout.  
+  * *Suspend at* : suspend the bout number assignment at a given final round bout.  This will typically be used for tournaments that run a special "finals" or "championship" round.
+  * *Start with* : the number to start assigning bouts with
+    * *1* : start with bout number 1.
+    * *last* : start with the last numbered bout for the mat.  This will typically be used for tournaments with multiple sessions, and you want to continue numbering bouts from where the previous session's bouts ended.
+    * *value* : start numbering bouts with the given number.
+
+http://bout-time.googlecode.com/svn/trunk/images/misc/Screenshot-autoBout.png
+
+Once you are satisfied with the values, click *OK* to automatically number the bouts.  You can come back and re-number the bouts multiple times.  
+
+=Printing Brackets=
+
+There are several different ways to print [http://code.google.com/p/bout-time/wiki/SampleReports#Bracket_Sheet brackets].  No matter which way you choose, you will get to preview the brackets first.  From this preview, you will be able to save the brackets to a PDF file, or send them to a printer.
+
+  * From the menu bar at the top, select *Reports* -> *Bracket Sheet*
+  * From the "Groups" tab, click the *Bracketsheet* button in the upper left window.  This will generate a report of all the brackets/groups that are in the list.  You can filter this list with the controls at the top of the window.  
+
+Brackets can be printed with a timestamp which will appear in the lower left-hand corner of the page.  
+
+bout-time also allows you to print *Blank* bracket and round robin reports.  
+
+In addition, you can print *Award* style brackets that do not include bout numbers.  These brackets are ideal for using as an award and can include a tournament logo (see the configuration).  
+
+For your convenience, you can export ALL of the brackets to PDF files (*Reports* -> *Bracket Sheet* -> *Export to Files*).  Each bracket will be put into it's own file with the name of the group as the filename.  This is especially helpful when offering brackets for sale to spectators.
+
+=Printing Boutsheets=
+
+There are several different ways to print [http://code.google.com/p/bout-time/wiki/SampleReports#Bout_Sheet boutsheets].  No matter which way you choose, you will get to preview the boutsheets first.  From this preview, you will be able to save the boutsheets to a PDF file, or send them to a printer.
+
+  * From the menu bar at the top, select *Reports* -> *Bout Sheet*.
+  * From the "Groups" tab, click the *Boutsheet* button in the upper left window.  This will generate a report of all the boutsheets that are in the list.  You can filter this list with the controls at the top of the window.
+  * From the "Bout List" tab within the "Groups" tab, select one or more bouts and click the "Boutsheet" button at the the bottom of this window.
+  * From the "Bouts" tab, select one or more bouts and click the "Boutsheet" button at the bottom of the window.
+
+bout-time also allows you to print *Blank* boutsheet reports.  
+
+=Set Bout Winners and Results=
+
+There are several different ways to set the bout winners and results.  When setting a winner for a bout, bout-time will automatically advance the winners and losers through the bracket.  These updates are immediately available when new bracket and boutsheet reports are generated.  
+
+  * From the "Bout List" tab within the "Groups" tab.
+  * From the "Bouts" tab.  Use the "Mat" control at the top of the window to filter the list. 
+
+In each of the above places, the *Winner* and the *Result* columns are editable.  Clicking on the *Update* button will advance the winners and losers in the view.  

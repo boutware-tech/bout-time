@@ -1,0 +1,90 @@
+#summary A quick how-to guide to get started using BoutTime.
+#labels Deprecated
+
+= Introduction =
+
+This is a quick how-to guide to get you started using !BoutTime.
+
+= Set-up a Tournament =
+
+  # Download and unzip the file.
+  # Execute (e.g. double-click) the file *"!BoutTime.jar"*.
+  # Select *“Start a new tournament”*.  This will start a wizard that brings up a series of tournament configuration steps.
+  # Input the SITE information for the tournament – then hit Next button.
+  # Input the DATE information for the tournament – then hit Next button.
+  # Input the BRACKET configuration information for the tournament.  This is where you specify information like use of round robin format (up to 5 in a bracket), how many places you will award, and if you will wrestle challenge matches.  The brackets will be built based on these inputs.  When complete hit the Next button.
+  # Input the selectable values for wrestler, bracket, or session information.  These values will show up as selectable ways you can sort and manage the tournament information.  *These values are optional.*  If you are importing the tournament entries into !BoutTime make sure that the values match the input data exactly.  For example if your entry data indicates a combined classification of Rookie/Novice you should enter Rookie/Novice as a value of the classification field.  If you enter Rookie or Novice separately you will not be able to sort the entry data properly as it will find no matches for “Rookie” or “Novice”.   If you are not sure of the values of the imported data then leave these values blank.  You can update them once you have imported the entries.  When you have completed entering the desired values hit the Next button.
+  # Input the Filename and location for the tournament data file.  Use the Browse button to locate the directory you would like to store the data in.  If you are creating a new file (not overwriting an existing file), then be sure to enter the name of the file.  If you need to close the program it will automatically save all updates to this data file.  When you have entered the data file name and location hit the Finish button to complete the initial tournament set-up.
+  # Review the tournament set-up inputs then hit the Close button.
+
+= Basic Layout =
+
+Once the application is open, you will notice 4 tabs.  They are :
+
+  * *Master List* : this is the list of all the entries for the tournament.  You can edit and delete wrestlers here.
+  * *Free List* : this is the list of ungrouped (or unbracketed) entries.  You will put wrestlers into groups from this list.
+  * *Groups* : this is the list of all the groups for the tournament.  You will seed wrestlers, assign groups to mats, assign groups to sessions, etc. from here.  You can also remove entire groups or remove wrestlers from a group, both of which place the wrestlers back on the Free List.  
+  * *Flagged List* : this is a list of entries that have been flagged.  
+
+= Input Wrestler Data =
+
+To continue building the tournament, you will first need to input wrestler entries.  You can do this in a variety of different ways : 
+
+  * Use the *"Add New"* Button on the *"Master List"* tab.  You will be presented with a form to input values for a single wrestler.  
+  * Use a data file.  !BoutTime has input functions for files of type text, MS Excel, and XML.  You can input entries in batches this way.  
+
+Here's how to input entries from a file : 
+
+  # Determine the type of file you will use to import data entries.  You can import from text, Excel or XML files.
+  # Determine the way the data will be represented in the import files.  You will need to know the columns where data like first name, last name, weight class, division, classification, and team name reside.  You will also need to know the characters used to separate (delimit) the data fields (especially in a text file).
+  # Select the “File” pull-down from the top bar.  Choose the type of data you want to import (Text, Excel, or XML).
+  # For tournaments using the TX-USA tournament entry process you will want to select “Input From a Text File”.  Make sure this file has no header information or extra spaces in the left margin.
+  # A screen will pop-up that requires you to indicate the column or field where specific information resides in your entry file.  Be careful to correctly identify the location of your data.  If you do not provide this information, !BoutTime will not display it.  If you point to the wrong data field, !BoutTime will display incorrect information.  When you are finished hit the Next button.
+  # A screen will pop-up that requires you to indicate the character that separates the fields of data in your file.  This character might be a comma, colon, spaces or other special characters.  Make sure that the character you enter exactly matches the one in your data file.  When you are finished hit the Next button.
+  # !BoutTime will then pop-up a screen so you can indicate the name and location of the input data file.  You can use the browse button to navigate to the file.  When you have selected the file and location the “Finish” button will become active.  Select the Finish button to input the data.
+  # A summary of the input data is displayed.  It indicates the number of records (entries) found and displays the number of records accepted and rejected.  Rejected entries have data faults or are double entries of wrestlers in multiple weight classes within the same division.  Hit the Close button when you have reviewed this input data summary.  You have now completed the input of entries.
+
+Once your data has been imported, you can look at a list of all entries by selecting the *Master List* tab.  As the name suggests this is the list that will be used to drive all your tournament information.  Any modification to information about an entry needs to be made in the Master List.  Selecting an entry and hitting the right mouse button will bring up options to add, edit, delete, or flag an entry.  Be very careful when making modification to the Master List.
+
+= Creating Bracket Groups =
+
+To continue building a tournament we must begin selecting wrestlers to place into bracket groups.  This selection is done through the Free List.  This is the list of entries that have not yet been assigned to a bracket group.  Entries can only be assigned to one bracket group at a time.  _If entries are modified in the Master List they will be removed from any previously assigned bracket group and returned to the Free List._
+
+The steps for assigning bracket groups follow.
+  # Select the *Free List* tab
+  # Highlight the entries you want to join in a bracket group.  By highlighting an entry and then holding down the “Shift” button on your keyboard you can arrow down to select all adjacent entries you want to include.  If you wish to select non-adjacent entries you can hold down the *“Ctrl”* button on your keyboard and mouse click to include any entry you choose.
+  # Once you are satisfied with the entries for your bracket group simply hit the right mouse button.  You will be prompted to either *Create Group* or *Add to Group*.   Make your selection and the highlighted entries will be removed from the Free List and put into a bracket group.
+  # Continue this process until all entries on the Free List are placed in bracket groups.
+
+= Making Mat Assignments =
+
+Once you have all wrestlers on the Free List placed in bracket groups you will want to make mat assignments for the brackets.  !BoutTime has useful sorting and reporting capabilities to assist you in balancing your tournament.  You may find the following process useful in making mat assignments.
+ 
+  # Select the Groups tab
+  # Input any missing information about the bracket groups.  In particular, if you tournament will be run in sessions which separate classifications or divisions make sure the session information is available.  
+  # In the bottom half of the left-hand window you will find a set of selectable tabs that indicate *Wrestler List*, *Tables*, and *Charts*.  These tabs allow you to select real-time reports about the groups, including number of bouts by division and number of bouts by mat.
+  # Use the data in *Bouts by Division* or *Bouts by Session & Mat* to calculate your total number of bouts for a session or for the tournament.  Divide this number by the number of mats to determine the optimal bouts per mat balance.  *NOTE:  Make sure that the pull-downs in the top left-hand window each indicate “All”.  This will make sure you are comprehending all the bouts in the tournament.*
+  # Begin selecting groups and assigning them to mats.  Hit the Update button to refresh the reports at the bottom left hand of the screen.  
+  # When all brackets have been assigned to mats and you have balanced the number of bout across the mats you have complete mat assignment.
+
+= Seeding Brackets =
+
+You may want to seed or otherwise adjust the position of wrestlers in the brackets.  The following steps allow you to modify the wrestlers’ position in the bracket.
+
+  # Select a Bracket Group under the Groups tab.  You will notice that a bracket preview will pop up in the window to the right.  This preview includes the bracket placement number next to the wrestlers name.
+  # Determine if you have wrestlers from the same club matched up too early in the bracket  or if you desire to seed the brackets for your tournament 
+  # In the window on the bottom left-hand side choose the tab for Wrestler List
+  # You can change the wrestlers’ position in the bracket by selecting the Seed column.  A pull-down will pop up that includes all available placement positions.  You can select a new bracket position and hit Update.  The bracket preview will reflect the new placement.  *NOTE:  If you modify a wrestlers’ position you must either swap him with another wrestlers’ position or completely re-number the positions for all wrestlers.  !BoutTime will allow two wrestlers to have the same seeded bracket position, but will present you with an error.*
+  # Once you are satisfied with the bracket preview you can move on to the next Bracket Group until you are complete.
+
+
+= Printing Brackets and Bout Sheets =
+
+Once you have completed all mat assignments and the wrestlers positions in the brackets have been adjusted, you may want to print brackets and bout sheets to number bouts and ready for the tournament.  Again, !BoutTime has sorting capabilities to make this process easier.  Follow these steps to quickly print and organize brackets and boutsheets for a particular mat.
+
+  # Under the Groups tab in the top left window you will find pull-downs to select Class, Div, Session, Mat and Bout Time.  By using these pull-downs you can narrow down the bracket groups to those assigned to a particular mat for a particular session. 
+  # The only brackets that should be displayed are those brackets assigned to the session and mat you are interested in.  Select the Bracketsheet button at the bottom of this window to print the brackets.
+  # A window will pop up that displays the brackets in .pdf.  You can review the brackets to make sure all information is correct.  Use the arrow keys at the top of this .pdf report to view all the brackets.  *NOTE:  !BoutTime creates the PDF bracket report for all brackets that are listed in the upper left-hand window.  To print an individual bracket either narrow down the search criteria or print the selection of a particular page of the PDF report.*
+  # Save the bracket report to a file to print later or go ahead and print the brackets from the viewer.
+  # Continue this process until all brackets are printed for each session and mat.
+  # You can repeat this process for the boutsheets using the Boutsheet button.

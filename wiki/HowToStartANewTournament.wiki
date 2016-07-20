@@ -1,0 +1,50 @@
+#summary How to start a new tournament
+A visual tutorial for starting a new tournament.
+
+=== Welcome Screen ===
+From the Welcome Screen, select *Start a new tournament* and click *OK*.
+
+http://bout-time.googlecode.com/svn/trunk/images/start-new/Screenshot-welcome-startnew.png
+----
+
+=== Enter Site Information ===
+Enter the information for the site of the tournament.  This will be displayed on the bracket reports.  This information is optional and can be changed later.  Click *Next* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/start-new/Screenshot-startnew-siteInfo.png
+----
+
+=== Enter Date ===
+Enter the date of the tournament.  This will be displayed on the bracket reports.  This information is optional and can be changed later.  Click *Next* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/start-new/Screenshot-startnew-date.png
+----
+
+=== Enter Configuration ===
+Enter the configuration for the groups and the awards.  These can be changed later.  Click *Next* when done.
+
+  * *5th place* : select if there will be a match for fifth place, where applicable.
+  * *2nd place challenge* : select if there will be a match to challenge for 2nd place, where applicable.
+  * *Round Robin* : select if round robin brackets will be used.  The *Up to* drop down list selects the maximum number of entries in a group to use for round robin brackets.
+  * *Max Award* : select the maximum place that will be awarded.
+
+http://bout-time.googlecode.com/svn/trunk/images/start-new/Screenshot-startnew-config.png
+----
+
+=== Enter Values ===
+Enter the values to be used by the application.  These are all optional and can be changed later.  Click *Next* when done.
+
+  * *Classifications* : Classifications for the entries, like Open and Rookie, or Varsity and Jr. Varsity.
+  * *Age Divisions* : Age divisions.
+  * *Weight Classes* : Weight classes.
+  * *Mats* : Mat numbers.
+  * *Sessions* : Tournament sessions, like AM and PM.
+  * *Bout Times* : Times used for bout periods.  For example, younger age divisions may have different/shorter bout period times than older age divisions.  You can also specify different period times for the winner's side and the consolation side of the bracket.  To do this, use a hyphen between the times.  For example, "2:00-1:30".  The winner's side is first (2:00) and the consolation side is last (1:30).  So you could have a list like this : "1:00,1:30-1:00,2:00-1:30".
+
+http://bout-time.googlecode.com/svn/trunk/images/start-new/Screenshot-startnew-values.png
+----
+
+=== Enter File ===
+Enter the location of the file that the tournament will be saved to.  When opening the bout-time application again, you can select this file when opening an existing tournament.  Click *Finish* when done.
+
+http://bout-time.googlecode.com/svn/trunk/images/start-new/Screenshot-startnew-file.png
+----

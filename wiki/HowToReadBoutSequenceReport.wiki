@@ -1,0 +1,46 @@
+#summary How to read the Bout Sequence Report.
+
+= Introduction =
+
+The [http://bout-time.googlecode.com/svn/trunk/sample/reports/BoutSequenceReport.pdf bout sequence report] is a report of a team's entries and their bout numbers for the entire tournament.  Each line of the bout sequence report is a condensed representation of a bracket.  Every possible win-loss scenario is captured in this report.
+
+= The Bracket =
+To understand how to read the bout sequence report, we first need a bracket.  Here is a sample bracket that we will use.  
+
+http://bout-time.googlecode.com/svn/trunk/images/bout-sequence/boutSequence-bracket.png
+
+= Scenario 1 : Win every bout =
+
+The first scenario we will look at is where the entry wins every bout.
+
+The first bout is always the first number that appears in square brackets.  If this bout is won, the next bout for this entry is the next number in the sequence that appears in square brackets.  Continue this until there are no more numbers in square brackets.
+
+For this scenario, the bout sequence is : 1, 5, 11.
+
+http://bout-time.googlecode.com/svn/trunk/images/bout-sequence/boutSequence-line2-01.png
+
+= Scenario 2 : Lose the 1st bout =
+
+The next scenario we will look at is where the entry loses the first bout.
+
+Again, the first bout is the first number that appears in square brackets.  If this bout is lost, the next bout for this entry is to the LEFT of the current location, so bout 7 is next.  From this point, the bout sequence goes right-to-left.  The entry's bouts are done when a number in square brackets is reached or there are no more numbers in the sequence.  
+
+Notice that bout 13 is the 5th place bout.  This is a special triple-elimination case.  So if bout 9 is lost, the next bout is bout 13.  If bout 9 is won, then we skip the 5th place bout in the sequence and go to the next bout, which is bout 12.  
+
+For the 2nd/3rd-place case, the bout sequence is : 1, 7, 9, 12, 14.
+
+For the 5th-place case, the bout sequence is : 1, 7, 9, 13.  
+
+http://bout-time.googlecode.com/svn/trunk/images/bout-sequence/boutSequence-line2-02.png
+
+= Scenario 3 : Win the 1st bout, lose the 2nd bout =
+
+The next scenario we will look at is where the entry wins the first bout and loses the second bout.
+
+As described in the previous two scenarios, we move left-to-right for wins through numbers in square brackets.  When a loss happens, the sequence moves right-to-left.  
+
+For the 2nd/3rd-place case, the bout sequence is : 1, 5, 10, 12, 14.
+
+For the 5th-place case, the bout sequence is : 1, 5, 10, 13.  
+
+http://bout-time.googlecode.com/svn/trunk/images/bout-sequence/boutSequence-line2-03.png
